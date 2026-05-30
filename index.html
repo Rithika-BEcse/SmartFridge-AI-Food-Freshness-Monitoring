@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Smart Fridge AI</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial;
+            background: #0f172a;
+            color: white;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #38bdf8;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+
+        .upload-box {
+            text-align: center;
+        }
+
+        input[type=file] {
+            margin: 15px;
+        }
+
+        input[type=text],
+        select {
+            margin: 10px 0;
+            padding: 10px;
+            width: 220px;
+            border-radius: 8px;
+            border: 1px solid #475569;
+            background: #0f172a;
+            color: white;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        button {
+            background: #38bdf8;
+            color: black;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background: #0ea5e9;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 999px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            background: #334155;
+            color: #cbd5e1;
+            margin-left: 8px;
+        }
+
+        .status-badge.running {
+            background: #f97316;
+            color: white;
+        }
+
+        .status-badge.idle {
+            background: #22c55e;
+            color: white;
+        }
+
+        .status-badge.error {
+            background: #ef4444;
+            color: white;
+        }
+
+        .toast-container {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            z-index: 9999;
+        }
+
+        .toast {
+            min-width: 260px;
+            max-width: 340px;
+            padding: 15px 18px;
+            border-radius: 12px;
+            box-shadow: 0 16px 40px rgba(15, 23, 42, 0.22);
+            background: rgba(15, 23, 42, 0.95);
+            color: #f8fafc;
+            border: 1px solid rgba(148, 163, 184, 0.2);
+            opacity: 0;
+            transform: translateY(12px);
+            animation: toast-in 0.3s forwards ease-out;
+        }
+
+        .toast.info {
+            background: #0f172a;
+        }
+
+        .toast.success {
+            background: #15803d;
+        }
+
+        .toast.error {
+            background: #b91c1c;
+        }
+
+        @keyframes toast-in {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .result {
+            margin-top: 20px;
+        }
+
+        img {
+            max-width: 300px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .dashboard-card {
+            background: #334155;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .dashboard-card h2 {
+            margin: 0;
+            color: #38bdf8;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table th,
+        table td {
+            border: 1px solid #475569;
+            padding: 12px;
+            text-align: center;
+        }
+
+        table th {
+            background: #334155;
+        }
+
+        .report-box {
+            white-space: pre-line;
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 12px;
+        }
+
+        .actions {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🧠 Smart Fridge AI</h1>
+
+        <!-- Upload Section -->
+        <div class="card upload-box">
+
+            <form id="predict-form" action="/predict" method="POST" enctype="multipart/form-data">
+
+                <input type="file" name="file" required>
+
+                <br>
+
+                <button type="submit">
+                    Predict Freshness
+                </button>
+
+            </form>
+
+            <div class="actions">
+
+                <a href="/scan_barcode">
+                    <button>
+                        Scan Barcode
+                    </button>
+                </a>
+
+                <a href="/live_camera">
+                    <button>
+                        Open Live Camera
+                    </button>
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Labeled Example Upload -->
+        <div class="card upload-box">
+
+            <h2>Add Labeled Training Example</h2>
+
+            <form id="add-examples-form" action="/add_examples" method="POST" enctype="multipart/form-data">
+
+                <label for="food">Food name:</label>
+                <input type="text" id="food" name="food" placeholder="egg" required>
+
+                <br>
+
+                <label for="state">State:</label>
+                <select id="state" name="state" required>
+                    <option value="fresh">fresh</option>
+                    <option value="moderate">moderate</option>
+                    <option value="spoiled">spoiled</option>
+                </select>
+
+                <br>
+
+                <input type="file" name="files" multiple required>
+
+                <br>
+
+                <button type="submit">
+                    Upload Examples
+                </button>
+
+            </form>
+
+            <p style="margin-top: 15px; color: #cbd5e1; font-size: 0.95rem;">
+                Upload one or more images to add examples for a new food/state.
+                After adding examples, click the "Retrain Model" button below.
+            </p>
+
+            <form id="retrain-form" action="/retrain" method="POST">
+                <button id="retrain-button" type="submit">Retrain Model</button>
+            </form>
+
+            <p style="margin-top: 15px; color: #cbd5e1; font-size: 0.95rem;">
+                Retrain status:
+                <span id="retrain-badge" class="status-badge {{ retrain_status or 'idle' }}">{{ retrain_status or 'idle' }}</span>
+                {% if retrain_last %}
+                • Last completed: <span id="retrain-last">{{ retrain_last }}</span>
+                {% else %}
+                <span id="retrain-last"></span>
+                {% endif %}
+            </p>
+            <p id="retrain-message" style="margin-top: 8px; color: #a5b4fc; font-size: 0.95rem;"></p>
+
+        </div>
+
+        {% if error_message %}
+        <div class="card result">
+            <h2>Notice</h2>
+            <p>{{ error_message }}</p>
+        </div>
+        {% endif %}
+
+        <!-- Dashboard -->
+        <div class="dashboard">
+
+            <div class="dashboard-card">
+                <h2>{{ dashboard.total }}</h2>
+                <p>Total Items</p>
+            </div>
+
+            <div class="dashboard-card">
+                <h2>{{ dashboard.fresh }}</h2>
+                <p>Fresh Items</p>
+            </div>
+
+            <div class="dashboard-card">
+                <h2>{{ dashboard.moderate }}</h2>
+                <p>Moderate Items</p>
+            </div>
+
+            <div class="dashboard-card">
+                <h2>{{ dashboard.spoiled }}</h2>
+                <p>Spoiled Items</p>
+            </div>
+
+        </div>
+
+        <!-- Prediction Results -->
+        {% if prediction %}
+
+        <div class="card result">
+
+            <h2>Prediction Result</h2>
+
+            <p>
+                <strong>Prediction:</strong>
+                {{ prediction }}
+            </p>
+
+            <p>
+                <strong>Confidence:</strong>
+                {{ confidence }}%
+            </p>
+
+            {% if top3 is defined and top3 %}
+            <p><strong>Top 3 Predictions:</strong></p>
+            <ul>
+                {% for item in top3 %}
+                <li>{{ item.label }} — {{ item.probability }}%</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+
+            <p>
+                <strong>Expiry Info:</strong>
+                {{ expiry_info }}
+            </p>
+
+            <p>
+                <strong>Detected Food Type:</strong>
+                {{ food_type or 'Unknown' }}
+            </p>
+
+            <p>
+                <strong>Recommendation:</strong>
+                {{ recommendation }}
+            </p>
+
+            <p>
+                <strong>Recipe Suggestion:</strong>
+                {{ recipe }}
+            </p>
+
+            {% if gradcam_path %}
+
+            <h3>Explainability</h3>
+            <img src="{{ url_for('static', filename=gradcam_path) }}" alt="GradCAM visualization">
+
+            {% endif %}
+
+            {% if image_file %}
+
+            <img src="{{ url_for('static', filename='uploads/' + image_file) }}">
+
+            {% endif %}
+
+        </div>
+
+        {% endif %}
+
+        <!-- Analytics -->
+        <div class="card">
+
+            <h2>📊 Waste Analytics</h2>
+
+            <p>
+                Total Items:
+                {{ analytics.total_items }}
+            </p>
+
+            <p>
+                Fresh Items:
+                {{ analytics.fresh_items }}
+            </p>
+
+            <p>
+                Moderate Items:
+                {{ analytics.moderate_items }}
+            </p>
+
+            <p>
+                Spoiled Items:
+                {{ analytics.spoiled_items }}
+            </p>
+
+            <p>
+                Waste Percentage:
+                {{ analytics.waste_percentage }}%
+            </p>
+
+        </div>
+
+        <!-- Chart -->
+        {% if chart_path %}
+
+        <div class="card">
+
+            <h2>📈 Freshness Analytics Chart</h2>
+
+            <img src="{{ chart_path }}" style="max-width:100%;">
+
+        </div>
+
+        {% endif %}
+
+        <!-- Inventory Table -->
+        <div class="card">
+
+            <h2>📦 Inventory History</h2>
+
+            <table>
+
+                <tr>
+                    <th>ID</th>
+                    <th>Food</th>
+                    <th>Freshness</th>
+                    <th>Expiry</th>
+                    <th>Quantity</th>
+                    <th>Scan Time</th>
+                </tr>
+
+                {% for item in inventory_items %}
+
+                <tr>
+
+                    <td>{{ item[0] }}</td>
+
+                    <td>{{ item[1] }}</td>
+
+                    <td>{{ item[2] }}</td>
+
+                    <td>{{ item[3] }}</td>
+
+                    <td>{{ item[4] }}</td>
+
+                    <td>{{ item[5] }}</td>
+
+                </tr>
+
+                {% endfor %}
+
+            </table>
+
+        </div>
+
+        <!-- Report -->
+        <div class="card">
+
+            <h2>📄 Smart Report</h2>
+
+            <div class="report-box">
+
+                {{ report }}
+
+            </div>
+
+        </div>
+
+        <!-- Barcode -->
+        {% if barcode_data %}
+
+        <div class="card">
+
+            <h2>📦 Barcode Result</h2>
+
+            <p>{{ barcode_data }}</p>
+
+        </div>
+
+        {% endif %}
+
+    </div>
+
+    <div id="toast-container" class="toast-container"></div>
+
+    <script>
+        const pageToastMessage = {{ upload_message | tojson }};
+        const pageToastType = {{ toast_type | tojson }};
+
+        let prevRetrainStatus = null;
+
+        function updateStatusBadge(status) {
+            const badge = document.getElementById('retrain-badge');
+            if (!badge) {
+                return;
+            }
+            badge.textContent = status || 'idle';
+            badge.className = `status-badge ${status || 'idle'}`;
+        }
+
+        function showToast(message, type = 'info') {
+            const container = document.getElementById('toast-container');
+            if (!container) {
+                return;
+            }
+            const toast = document.createElement('div');
+            toast.className = `toast ${type}`;
+            toast.textContent = message;
+            container.appendChild(toast);
+
+            setTimeout(() => {
+                toast.style.opacity = '0';
+                toast.style.transform = 'translateY(10px)';
+                setTimeout(() => container.removeChild(toast), 300);
+            }, 4200);
+        }
+
+        async function refreshRetrainStatus() {
+            const statusEl = document.getElementById('retrain-status');
+            const lastEl = document.getElementById('retrain-last');
+            const badge = document.getElementById('retrain-badge');
+            const retrainButton = document.getElementById('retrain-button');
+            const retrainMessage = document.getElementById('retrain-message');
+            if (!statusEl || !badge) {
+                return;
+            }
+
+            try {
+                const res = await fetch('/retrain_status');
+                if (!res.ok) {
+                    return;
+                }
+                const data = await res.json();
+                const status = data.status || 'idle';
+                const lastFinished = data.last_finished ? new Date(data.last_finished * 1000).toLocaleString() : '';
+                statusEl.textContent = status;
+                updateStatusBadge(status);
+                lastEl.textContent = lastFinished;
+
+                if (status === 'running') {
+                    if (retrainButton) {
+                        retrainButton.disabled = true;
+                        retrainButton.textContent = 'Retraining...';
+                    }
+                    if (retrainMessage) {
+                        retrainMessage.textContent = 'Retraining is in progress. Refreshing status...';
+                    }
+                    if (prevRetrainStatus !== 'running') {
+                        showToast('Retraining started.', 'info');
+                    }
+                    prevRetrainStatus = 'running';
+                    setTimeout(refreshRetrainStatus, 3000);
+                } else {
+                    if (retrainButton) {
+                        retrainButton.disabled = false;
+                        retrainButton.textContent = 'Retrain Model';
+                    }
+                    if (prevRetrainStatus === 'running') {
+                        showToast('Retraining completed successfully.', 'success');
+                    }
+                    if (retrainMessage) {
+                        retrainMessage.textContent = '';
+                    }
+                    prevRetrainStatus = status;
+                }
+            } catch (err) {
+                console.error('Retrain status polling failed', err);
+                showToast('Unable to update retrain status.', 'error');
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            refreshRetrainStatus();
+            const retrainForm = document.getElementById('retrain-form');
+            const retrainButton = document.getElementById('retrain-button');
+            const retrainMessage = document.getElementById('retrain-message');
+
+            if (retrainForm && retrainButton) {
+                retrainForm.addEventListener('submit', async (event) => {
+                    event.preventDefault();
+                    retrainButton.disabled = true;
+                    retrainButton.textContent = 'Starting retrain...';
+                    if (retrainMessage) {
+                        retrainMessage.textContent = 'Sending retrain request...';
+                    }
+
+                    try {
+                        const response = await fetch('/retrain', {
+                            method: 'POST',
+                            headers: {
+                                'Accept': 'application/json'
+                            }
+                        });
+                        if (response.ok) {
+                            const data = await response.json();
+                            if (data.status === 'started' || data.status === 'running') {
+                                if (retrainMessage) {
+                                    retrainMessage.textContent = 'Retraining started. Monitoring progress...';
+                                }
+                                refreshRetrainStatus();
+                            } else {
+                                if (retrainMessage) {
+                                    retrainMessage.textContent = `Retrain response: ${data.status}`;
+                                }
+                                retrainButton.disabled = false;
+                                retrainButton.textContent = 'Retrain Model';
+                            }
+                        } else {
+                            if (retrainMessage) {
+                                retrainMessage.textContent = 'Retrain request failed. Please try again.';
+                            }
+                            retrainButton.disabled = false;
+                            retrainButton.textContent = 'Retrain Model';
+                        }
+                    } catch (error) {
+                        if (retrainMessage) {
+                            retrainMessage.textContent = 'Unable to send retrain request.';
+                        }
+                        retrainButton.disabled = false;
+                        retrainButton.textContent = 'Retrain Model';
+                    }
+                });
+            }
+        });
+    </script>
+
+</body>
+
+</html>

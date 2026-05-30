@@ -1,0 +1,1334 @@
+recipe_id,recipe_name,ingredient,category,quantity_g,is_optional,can_substitute,substitute,prep_time_min,cook_time_min,servings,cuisine,difficulty,meal_type
+1,Tuna Salad,tuna,Protein,79,False,False,,29,59,3,Indian,hard,dinner
+1,Tuna Salad,lettuce,Vegetable,165,False,False,cream,28,22,4,Mediterranean,easy,snack
+1,Tuna Salad,tomato,Vegetable,35,False,False,,32,58,2,Mediterranean,easy,breakfast
+1,Tuna Salad,cucumber,Vegetable,247,False,False,,23,11,1,International,easy,snack
+1,Tuna Salad,lemon,Fruit,82,False,False,potato,38,9,5,Indian,medium,drink
+2,Garlic Mushroom Toast,bread,Grain,149,False,True,,40,24,1,Mediterranean,hard,breakfast
+2,Garlic Mushroom Toast,mushroom,Vegetable,45,False,False,cauliflower,25,20,1,Mediterranean,medium,drink
+2,Garlic Mushroom Toast,garlic,Vegetable,55,False,False,beef,21,17,4,International,medium,snack
+2,Garlic Mushroom Toast,butter,Dairy,74,False,True,,11,37,6,Indian,hard,lunch
+3,Tuna Salad,tuna,Protein,89,False,False,,24,60,1,Fusion,medium,lunch
+3,Tuna Salad,lettuce,Vegetable,176,False,False,cauliflower,35,43,4,Indian,easy,dinner
+3,Tuna Salad,tomato,Vegetable,166,False,False,,12,58,4,Indian,easy,breakfast
+3,Tuna Salad,cucumber,Vegetable,82,True,True,,45,31,5,Mediterranean,easy,drink
+3,Tuna Salad,lemon,Fruit,150,False,False,,38,41,5,International,hard,lunch
+4,Berry Smoothie Bowl,strawberry,Fruit,177,True,False,,14,52,3,Fusion,easy,breakfast
+4,Berry Smoothie Bowl,banana,Fruit,185,False,False,,45,21,1,Fusion,medium,snack
+4,Berry Smoothie Bowl,blueberry,Fruit,200,False,False,,5,26,5,Indian,easy,dinner
+4,Berry Smoothie Bowl,yogurt,Dairy,219,False,True,,43,29,2,Mediterranean,hard,drink
+5,Green Smoothie,spinach,Vegetable,36,False,True,,42,1,2,Fusion,easy,snack
+5,Green Smoothie,banana,Fruit,203,False,True,,13,12,4,Mediterranean,easy,breakfast
+5,Green Smoothie,apple,Fruit,175,False,False,cherry,8,7,6,International,medium,breakfast
+5,Green Smoothie,lemon,Fruit,247,False,False,banana,21,33,3,Fusion,easy,lunch
+6,French Toast,bread,Grain,51,False,False,,23,45,3,Mediterranean,easy,dinner
+6,French Toast,egg,Protein,126,False,True,,25,47,6,Indian,easy,snack
+6,French Toast,milk,Dairy,95,False,True,,32,34,2,Indian,easy,lunch
+6,French Toast,butter,Dairy,38,True,False,,25,51,2,Mediterranean,easy,breakfast
+7,Banana Milkshake,banana,Fruit,198,False,False,,41,23,6,Mediterranean,medium,snack
+7,Banana Milkshake,milk,Dairy,56,False,False,,33,9,3,Indian,easy,snack
+7,Banana Milkshake,yogurt,Dairy,247,False,True,,37,28,6,Fusion,hard,lunch
+8,Pineapple Fried Rice,rice,Grain,198,False,False,apple,45,35,1,Mediterranean,hard,lunch
+8,Pineapple Fried Rice,pineapple,Fruit,50,False,False,,44,3,5,International,hard,snack
+8,Pineapple Fried Rice,egg,Protein,138,False,False,,37,32,1,International,medium,snack
+8,Pineapple Fried Rice,onion,Vegetable,35,False,False,,13,60,3,Fusion,hard,breakfast
+8,Pineapple Fried Rice,carrot,Vegetable,145,False,True,pineapple,35,34,2,Mediterranean,medium,breakfast
+9,Corn Salsa,corn,Vegetable,170,False,True,,24,13,3,Indian,easy,drink
+9,Corn Salsa,tomato,Vegetable,163,False,False,,43,5,1,Mediterranean,medium,breakfast
+9,Corn Salsa,onion,Vegetable,155,False,False,,20,20,4,Indian,easy,drink
+9,Corn Salsa,lemon,Fruit,47,False,False,grape,5,29,6,International,hard,snack
+9,Corn Salsa,bell_pepper,Vegetable,114,False,True,pineapple,13,25,5,International,hard,drink
+10,Chicken Stir Fry,chicken,Protein,195,True,True,,31,5,5,International,medium,drink
+10,Chicken Stir Fry,broccoli,Vegetable,156,False,False,avocado,11,1,6,Mediterranean,easy,dinner
+10,Chicken Stir Fry,carrot,Vegetable,123,False,False,,36,6,5,International,medium,dinner
+10,Chicken Stir Fry,garlic,Vegetable,64,False,False,,30,33,3,Mediterranean,medium,snack
+10,Chicken Stir Fry,bell_pepper,Vegetable,121,False,False,spinach,16,40,6,Indian,hard,breakfast
+11,French Toast,bread,Grain,241,False,False,,32,19,3,Mediterranean,medium,breakfast
+11,French Toast,egg,Protein,70,False,False,egg,33,27,6,Fusion,easy,dinner
+11,French Toast,milk,Dairy,120,False,False,,13,7,6,International,easy,drink
+11,French Toast,butter,Dairy,51,False,False,,20,51,5,Indian,easy,drink
+12,Cheese Omelette,egg,Protein,177,False,False,olive_oil,6,31,1,Indian,easy,dinner
+12,Cheese Omelette,cheese,Dairy,37,False,False,peas,38,48,5,Fusion,hard,dinner
+12,Cheese Omelette,bell_pepper,Vegetable,184,True,False,,35,17,3,Mediterranean,easy,lunch
+12,Cheese Omelette,onion,Vegetable,104,False,True,,26,60,3,Fusion,hard,snack
+13,Tuna Salad,tuna,Protein,94,False,False,,7,16,1,International,hard,breakfast
+13,Tuna Salad,lettuce,Vegetable,152,False,False,,42,37,3,Fusion,medium,lunch
+13,Tuna Salad,tomato,Vegetable,195,False,True,,16,17,4,Indian,easy,dinner
+13,Tuna Salad,cucumber,Vegetable,72,False,False,,25,60,6,Fusion,medium,breakfast
+13,Tuna Salad,lemon,Fruit,72,True,False,,10,24,5,Indian,hard,breakfast
+14,Chickpea Curry,chickpeas,Legume,232,False,True,bread,43,30,6,Mediterranean,medium,snack
+14,Chickpea Curry,tomato,Vegetable,111,False,False,,39,14,5,Indian,hard,snack
+14,Chickpea Curry,onion,Vegetable,209,False,False,yogurt,38,19,1,Fusion,hard,lunch
+14,Chickpea Curry,garlic,Vegetable,100,False,True,,12,4,5,Indian,easy,dinner
+14,Chickpea Curry,spinach,Vegetable,132,False,False,,32,38,2,Fusion,medium,lunch
+15,Mushroom Omelette,egg,Protein,48,True,False,apple,33,10,1,Fusion,easy,drink
+15,Mushroom Omelette,mushroom,Vegetable,62,True,True,strawberry,26,18,4,Fusion,hard,drink
+15,Mushroom Omelette,onion,Vegetable,113,False,False,,35,22,2,Fusion,easy,breakfast
+15,Mushroom Omelette,cheese,Dairy,48,False,False,pasta,20,20,4,Indian,medium,breakfast
+16,Carrot Lemon Soup,carrot,Vegetable,150,False,True,,28,15,2,Mediterranean,hard,lunch
+16,Carrot Lemon Soup,lemon,Fruit,199,False,False,pineapple,14,52,2,Indian,hard,breakfast
+16,Carrot Lemon Soup,onion,Vegetable,197,False,False,,7,3,4,Fusion,easy,lunch
+16,Carrot Lemon Soup,garlic,Vegetable,128,False,False,,18,10,2,Mediterranean,medium,breakfast
+16,Carrot Lemon Soup,potato,Vegetable,216,False,True,,13,37,3,Fusion,easy,dinner
+17,Garlic Mushroom Toast,bread,Grain,153,False,True,,23,59,4,International,hard,lunch
+17,Garlic Mushroom Toast,mushroom,Vegetable,194,False,False,bread,29,2,6,International,easy,lunch
+17,Garlic Mushroom Toast,garlic,Vegetable,68,False,False,rice,27,33,2,Fusion,hard,dinner
+17,Garlic Mushroom Toast,butter,Dairy,201,False,False,tuna,37,51,6,Indian,hard,drink
+18,Cauliflower Rice,cauliflower,Vegetable,51,False,False,,14,18,6,International,medium,breakfast
+18,Cauliflower Rice,garlic,Vegetable,237,False,False,,27,51,5,Mediterranean,medium,lunch
+18,Cauliflower Rice,onion,Vegetable,65,False,False,walnut,44,14,5,Mediterranean,medium,drink
+18,Cauliflower Rice,egg,Protein,170,True,True,,16,39,2,Mediterranean,medium,snack
+19,Tuna Salad,tuna,Protein,124,False,True,,22,49,6,Fusion,medium,dinner
+19,Tuna Salad,lettuce,Vegetable,217,False,False,,34,58,2,Mediterranean,easy,snack
+19,Tuna Salad,tomato,Vegetable,173,False,False,carrot,39,13,2,Mediterranean,hard,dinner
+19,Tuna Salad,cucumber,Vegetable,125,False,False,,19,31,5,Fusion,easy,lunch
+19,Tuna Salad,lemon,Fruit,182,False,False,potato,26,13,1,International,medium,dinner
+20,Lentil Soup,lentils,Legume,127,False,False,,27,53,4,Indian,medium,snack
+20,Lentil Soup,carrot,Vegetable,57,False,False,,10,41,5,International,easy,lunch
+20,Lentil Soup,onion,Vegetable,89,False,True,,28,21,1,Indian,easy,dinner
+20,Lentil Soup,garlic,Vegetable,225,False,True,,20,46,3,Indian,easy,lunch
+20,Lentil Soup,tomato,Vegetable,142,False,False,pasta,45,41,2,International,easy,breakfast
+21,Chicken Stir Fry,chicken,Protein,88,False,False,lemon,45,27,1,Mediterranean,hard,snack
+21,Chicken Stir Fry,broccoli,Vegetable,191,False,False,,31,26,2,Indian,medium,breakfast
+21,Chicken Stir Fry,carrot,Vegetable,189,False,False,cream,31,51,2,Mediterranean,medium,snack
+21,Chicken Stir Fry,garlic,Vegetable,173,False,False,,26,36,1,Indian,easy,lunch
+21,Chicken Stir Fry,bell_pepper,Vegetable,188,False,False,,38,55,2,Fusion,easy,drink
+22,Fruit Salad,apple,Fruit,67,False,False,chickpeas,29,38,3,Mediterranean,easy,lunch
+22,Fruit Salad,banana,Fruit,44,False,True,walnut,5,54,4,Fusion,easy,lunch
+22,Fruit Salad,grape,Fruit,73,False,False,,43,4,1,Mediterranean,medium,dinner
+22,Fruit Salad,strawberry,Fruit,204,False,False,,29,18,6,Fusion,medium,dinner
+22,Fruit Salad,kiwi,Fruit,184,False,True,,28,59,5,Mediterranean,hard,lunch
+23,Salmon Rice Bowl,salmon,Protein,179,True,False,cauliflower,5,12,2,International,medium,breakfast
+23,Salmon Rice Bowl,rice,Grain,220,True,False,,39,19,6,International,hard,breakfast
+23,Salmon Rice Bowl,cucumber,Vegetable,81,False,True,,12,56,1,Fusion,easy,drink
+23,Salmon Rice Bowl,avocado,Fruit,162,False,False,walnut,15,39,6,Indian,medium,dinner
+23,Salmon Rice Bowl,lemon,Fruit,71,False,False,almond,31,7,4,Indian,easy,breakfast
+24,Broccoli Cheese Soup,broccoli,Vegetable,189,False,True,,40,39,6,International,hard,drink
+24,Broccoli Cheese Soup,cheese,Dairy,73,True,False,,11,2,1,Fusion,easy,breakfast
+24,Broccoli Cheese Soup,milk,Dairy,136,False,False,,37,19,5,Mediterranean,hard,breakfast
+24,Broccoli Cheese Soup,onion,Vegetable,102,False,False,,42,28,6,Mediterranean,hard,snack
+24,Broccoli Cheese Soup,garlic,Vegetable,246,False,False,strawberry,8,38,3,Fusion,easy,breakfast
+25,Peach Yogurt Parfait,peach,Fruit,216,False,False,,13,8,2,Mediterranean,medium,lunch
+25,Peach Yogurt Parfait,yogurt,Dairy,72,False,True,,16,41,6,Fusion,easy,snack
+25,Peach Yogurt Parfait,oats,Grain,126,False,True,,34,58,3,Indian,hard,dinner
+25,Peach Yogurt Parfait,almond,Nut,109,False,False,,10,31,6,Fusion,hard,drink
+26,Zucchini Pasta,pasta,Grain,247,False,False,,9,25,1,Mediterranean,hard,drink
+26,Zucchini Pasta,zucchini,Vegetable,151,False,False,,19,47,1,Mediterranean,easy,snack
+26,Zucchini Pasta,tomato,Vegetable,71,False,False,,28,34,3,International,medium,lunch
+26,Zucchini Pasta,garlic,Vegetable,183,True,False,kiwi,37,39,5,Indian,easy,lunch
+26,Zucchini Pasta,cheese,Dairy,175,False,False,,16,43,2,International,hard,dinner
+27,Mushroom Omelette,egg,Protein,139,True,True,,13,14,3,International,easy,snack
+27,Mushroom Omelette,mushroom,Vegetable,107,True,True,,14,12,1,Fusion,medium,snack
+27,Mushroom Omelette,onion,Vegetable,230,False,False,,30,6,6,International,medium,breakfast
+27,Mushroom Omelette,cheese,Dairy,154,False,False,cream,24,15,5,International,hard,drink
+28,Apple Banana Smoothie,apple,Fruit,93,False,False,,29,27,5,Indian,easy,snack
+28,Apple Banana Smoothie,banana,Fruit,200,False,False,egg,27,7,6,Indian,medium,snack
+28,Apple Banana Smoothie,milk,Dairy,199,False,False,,14,17,4,Mediterranean,hard,drink
+28,Apple Banana Smoothie,yogurt,Dairy,113,False,False,,24,50,4,International,medium,dinner
+29,Peach Yogurt Parfait,peach,Fruit,203,False,False,peach,35,53,4,Fusion,medium,drink
+29,Peach Yogurt Parfait,yogurt,Dairy,222,False,False,lentils,23,51,3,Mediterranean,medium,lunch
+29,Peach Yogurt Parfait,oats,Grain,105,False,False,,15,2,1,Indian,easy,snack
+29,Peach Yogurt Parfait,almond,Nut,199,False,True,,15,46,6,Indian,easy,snack
+30,Carrot Lemon Soup,carrot,Vegetable,202,False,False,spinach,31,47,3,International,medium,lunch
+30,Carrot Lemon Soup,lemon,Fruit,47,False,False,,35,8,4,Mediterranean,medium,drink
+30,Carrot Lemon Soup,onion,Vegetable,170,False,True,,14,46,6,Indian,easy,breakfast
+30,Carrot Lemon Soup,garlic,Vegetable,98,False,True,,34,36,1,Indian,hard,breakfast
+30,Carrot Lemon Soup,potato,Vegetable,63,False,False,,16,15,5,Fusion,easy,drink
+31,Peach Yogurt Parfait,peach,Fruit,116,False,True,,15,31,1,Indian,easy,snack
+31,Peach Yogurt Parfait,yogurt,Dairy,81,True,False,almond,39,3,4,Mediterranean,medium,snack
+31,Peach Yogurt Parfait,oats,Grain,99,False,False,,7,42,6,Mediterranean,medium,breakfast
+31,Peach Yogurt Parfait,almond,Nut,132,False,True,,21,58,4,International,medium,breakfast
+32,Green Smoothie,spinach,Vegetable,72,False,True,,28,9,2,Mediterranean,medium,drink
+32,Green Smoothie,banana,Fruit,156,False,False,butter,26,17,3,Indian,medium,drink
+32,Green Smoothie,apple,Fruit,82,False,False,,18,32,6,Indian,easy,lunch
+32,Green Smoothie,lemon,Fruit,112,False,False,,18,27,1,Mediterranean,easy,breakfast
+33,French Toast,bread,Grain,156,False,True,,7,40,4,Indian,medium,lunch
+33,French Toast,egg,Protein,150,False,False,,7,15,1,Mediterranean,hard,snack
+33,French Toast,milk,Dairy,141,True,False,potato,32,1,1,Fusion,medium,drink
+33,French Toast,butter,Dairy,224,False,True,,41,12,3,Fusion,hard,drink
+34,Veggie Stir Fry,broccoli,Vegetable,197,False,True,,16,50,5,Mediterranean,hard,drink
+34,Veggie Stir Fry,carrot,Vegetable,68,False,True,,26,58,3,Mediterranean,medium,breakfast
+34,Veggie Stir Fry,bell_pepper,Vegetable,188,False,False,,7,33,6,Indian,medium,snack
+34,Veggie Stir Fry,garlic,Vegetable,36,False,True,rice,10,45,4,Indian,medium,drink
+34,Veggie Stir Fry,corn,Vegetable,85,True,False,,20,24,2,Fusion,medium,lunch
+35,Tuna Salad,tuna,Protein,37,False,True,walnut,29,16,3,Fusion,medium,drink
+35,Tuna Salad,lettuce,Vegetable,54,False,False,mango,26,56,2,Mediterranean,hard,breakfast
+35,Tuna Salad,tomato,Vegetable,113,False,False,,34,19,6,Indian,hard,snack
+35,Tuna Salad,cucumber,Vegetable,206,False,True,rice,44,44,1,Mediterranean,easy,drink
+35,Tuna Salad,lemon,Fruit,55,True,False,banana,14,44,5,International,easy,dinner
+36,Almond Smoothie,almond,Nut,170,False,False,milk,8,26,4,Fusion,hard,snack
+36,Almond Smoothie,banana,Fruit,238,False,False,,6,11,1,Mediterranean,hard,snack
+36,Almond Smoothie,milk,Dairy,227,False,False,,33,0,6,Fusion,hard,drink
+36,Almond Smoothie,oats,Grain,134,False,True,,9,9,3,Mediterranean,medium,lunch
+37,Avocado Toast,bread,Grain,135,False,False,garlic,9,27,2,Indian,easy,snack
+37,Avocado Toast,avocado,Fruit,57,False,False,blueberry,38,58,6,Fusion,medium,dinner
+37,Avocado Toast,lemon,Fruit,128,False,False,,18,27,5,Indian,hard,dinner
+37,Avocado Toast,tomato,Vegetable,228,False,False,potato,19,58,3,Indian,easy,lunch
+38,Almond Smoothie,almond,Nut,231,False,False,,33,6,3,Indian,easy,lunch
+38,Almond Smoothie,banana,Fruit,57,False,False,,27,33,5,Fusion,easy,drink
+38,Almond Smoothie,milk,Dairy,80,False,False,,15,24,6,International,easy,lunch
+38,Almond Smoothie,oats,Grain,206,False,True,yogurt,9,46,5,International,hard,dinner
+39,Zucchini Pasta,pasta,Grain,62,True,False,bell_pepper,15,8,2,International,easy,breakfast
+39,Zucchini Pasta,zucchini,Vegetable,109,False,False,garlic,24,30,5,Mediterranean,hard,breakfast
+39,Zucchini Pasta,tomato,Vegetable,95,False,False,,39,42,5,International,easy,lunch
+39,Zucchini Pasta,garlic,Vegetable,34,False,True,,42,21,3,International,hard,lunch
+39,Zucchini Pasta,cheese,Dairy,161,False,False,lemon,43,42,5,International,hard,snack
+40,Walnut Oatmeal,oats,Grain,163,False,True,zucchini,23,36,1,Fusion,hard,snack
+40,Walnut Oatmeal,walnut,Nut,136,False,True,apple,42,10,1,Indian,hard,drink
+40,Walnut Oatmeal,banana,Fruit,154,True,False,,43,47,6,International,easy,drink
+40,Walnut Oatmeal,milk,Dairy,67,False,True,pear,37,59,1,Indian,medium,drink
+41,Corn Salsa,corn,Vegetable,38,False,False,,38,6,5,Mediterranean,medium,breakfast
+41,Corn Salsa,tomato,Vegetable,146,False,True,,40,39,1,Mediterranean,medium,dinner
+41,Corn Salsa,onion,Vegetable,194,True,False,,28,14,3,Indian,easy,lunch
+41,Corn Salsa,lemon,Fruit,141,False,False,,34,8,4,Mediterranean,medium,lunch
+41,Corn Salsa,bell_pepper,Vegetable,202,False,False,,18,43,1,Mediterranean,easy,breakfast
+42,Tuna Salad,tuna,Protein,134,False,True,lentils,16,41,1,Fusion,hard,lunch
+42,Tuna Salad,lettuce,Vegetable,175,False,True,spinach,22,38,2,International,hard,dinner
+42,Tuna Salad,tomato,Vegetable,135,False,False,,45,6,4,Mediterranean,easy,breakfast
+42,Tuna Salad,cucumber,Vegetable,167,False,True,banana,41,10,1,Mediterranean,easy,snack
+42,Tuna Salad,lemon,Fruit,171,False,False,,35,57,1,Fusion,medium,snack
+43,Cheese Omelette,egg,Protein,175,True,True,,39,26,3,Indian,medium,snack
+43,Cheese Omelette,cheese,Dairy,157,False,False,,19,41,4,International,medium,lunch
+43,Cheese Omelette,bell_pepper,Vegetable,118,False,False,cherry,27,39,6,International,easy,lunch
+43,Cheese Omelette,onion,Vegetable,227,True,False,,7,1,5,Indian,easy,drink
+44,Pineapple Fried Rice,rice,Grain,180,False,False,,38,59,4,Indian,easy,breakfast
+44,Pineapple Fried Rice,pineapple,Fruit,54,True,False,,6,29,4,Indian,easy,drink
+44,Pineapple Fried Rice,egg,Protein,53,False,False,bell_pepper,42,14,5,Mediterranean,hard,dinner
+44,Pineapple Fried Rice,onion,Vegetable,185,False,False,,24,20,2,Fusion,hard,dinner
+44,Pineapple Fried Rice,carrot,Vegetable,250,False,False,,29,11,2,Indian,easy,lunch
+45,Pineapple Fried Rice,rice,Grain,143,False,True,,27,30,1,Indian,medium,breakfast
+45,Pineapple Fried Rice,pineapple,Fruit,207,False,False,chickpeas,34,31,5,International,easy,snack
+45,Pineapple Fried Rice,egg,Protein,164,False,True,,24,25,3,Fusion,medium,snack
+45,Pineapple Fried Rice,onion,Vegetable,119,False,True,,13,26,4,Mediterranean,medium,lunch
+45,Pineapple Fried Rice,carrot,Vegetable,151,False,False,salmon,9,11,3,Fusion,easy,drink
+46,Tomato Egg Scramble,tomato,Vegetable,203,False,True,,36,36,3,Fusion,medium,dinner
+46,Tomato Egg Scramble,egg,Protein,32,True,False,,40,41,4,Mediterranean,hard,dinner
+46,Tomato Egg Scramble,onion,Vegetable,177,False,False,carrot,26,54,2,International,hard,lunch
+46,Tomato Egg Scramble,garlic,Vegetable,100,True,False,butter,42,57,6,Indian,easy,lunch
+47,Zucchini Pasta,pasta,Grain,220,False,True,,25,2,1,Indian,easy,lunch
+47,Zucchini Pasta,zucchini,Vegetable,176,False,False,tofu,42,3,1,Fusion,easy,breakfast
+47,Zucchini Pasta,tomato,Vegetable,143,False,False,bread,11,36,2,International,easy,dinner
+47,Zucchini Pasta,garlic,Vegetable,174,False,True,lentils,32,56,6,Mediterranean,easy,lunch
+47,Zucchini Pasta,cheese,Dairy,105,False,True,,43,14,3,Mediterranean,hard,drink
+48,Cauliflower Rice,cauliflower,Vegetable,145,False,True,,22,47,4,Mediterranean,hard,lunch
+48,Cauliflower Rice,garlic,Vegetable,30,False,False,olive_oil,36,53,5,International,easy,drink
+48,Cauliflower Rice,onion,Vegetable,209,False,True,,6,45,1,Mediterranean,hard,drink
+48,Cauliflower Rice,egg,Protein,196,False,False,cream,36,60,2,Fusion,medium,snack
+49,Almond Smoothie,almond,Nut,129,False,False,,34,12,1,Indian,easy,lunch
+49,Almond Smoothie,banana,Fruit,123,False,False,,29,30,3,Fusion,medium,dinner
+49,Almond Smoothie,milk,Dairy,109,False,True,cream,12,55,6,Fusion,medium,breakfast
+49,Almond Smoothie,oats,Grain,81,False,True,,14,39,6,Indian,hard,dinner
+50,Salmon Rice Bowl,salmon,Protein,30,False,False,,33,19,1,Mediterranean,easy,dinner
+50,Salmon Rice Bowl,rice,Grain,238,False,False,,11,32,4,Mediterranean,easy,snack
+50,Salmon Rice Bowl,cucumber,Vegetable,184,False,False,orange,25,59,6,International,medium,snack
+50,Salmon Rice Bowl,avocado,Fruit,208,True,False,,36,20,6,Indian,medium,lunch
+50,Salmon Rice Bowl,lemon,Fruit,223,False,False,,16,2,3,Indian,medium,lunch
+51,Cauliflower Rice,cauliflower,Vegetable,71,False,True,yogurt,11,41,6,Mediterranean,hard,drink
+51,Cauliflower Rice,garlic,Vegetable,50,False,False,milk,19,26,4,Indian,hard,snack
+51,Cauliflower Rice,onion,Vegetable,147,False,False,,32,50,5,Mediterranean,hard,breakfast
+51,Cauliflower Rice,egg,Protein,127,False,False,broccoli,9,27,5,International,medium,dinner
+52,Beef Stew,beef,Protein,156,True,False,,12,51,2,Mediterranean,easy,lunch
+52,Beef Stew,potato,Vegetable,51,False,True,,33,56,6,Indian,hard,snack
+52,Beef Stew,carrot,Vegetable,223,False,True,,35,13,3,International,hard,dinner
+52,Beef Stew,onion,Vegetable,66,False,False,,33,32,3,Indian,medium,dinner
+52,Beef Stew,garlic,Vegetable,168,False,False,banana,31,6,2,Mediterranean,hard,snack
+53,Zucchini Pasta,pasta,Grain,93,False,True,oats,37,29,4,Indian,hard,dinner
+53,Zucchini Pasta,zucchini,Vegetable,164,False,False,,13,48,4,Indian,hard,lunch
+53,Zucchini Pasta,tomato,Vegetable,205,False,False,chicken,41,4,5,Mediterranean,hard,drink
+53,Zucchini Pasta,garlic,Vegetable,84,False,False,,15,7,3,Indian,easy,lunch
+53,Zucchini Pasta,cheese,Dairy,211,False,True,chickpeas,9,46,2,International,medium,snack
+54,Avocado Toast,bread,Grain,126,False,False,,40,44,2,Mediterranean,medium,snack
+54,Avocado Toast,avocado,Fruit,88,False,True,,24,10,4,Mediterranean,medium,snack
+54,Avocado Toast,lemon,Fruit,84,True,True,cherry,26,42,2,Mediterranean,hard,drink
+54,Avocado Toast,tomato,Vegetable,202,False,True,,34,4,6,Mediterranean,easy,snack
+55,Chickpea Curry,chickpeas,Legume,141,False,False,,24,33,4,Indian,hard,dinner
+55,Chickpea Curry,tomato,Vegetable,128,False,False,lentils,6,25,4,Mediterranean,easy,lunch
+55,Chickpea Curry,onion,Vegetable,186,False,False,,26,7,2,Fusion,medium,breakfast
+55,Chickpea Curry,garlic,Vegetable,183,False,True,butter,5,25,5,Indian,easy,snack
+55,Chickpea Curry,spinach,Vegetable,190,False,False,,5,13,6,Mediterranean,easy,lunch
+56,Salmon Rice Bowl,salmon,Protein,73,False,False,almond,45,18,2,International,easy,snack
+56,Salmon Rice Bowl,rice,Grain,32,False,False,potato,16,18,1,Mediterranean,hard,drink
+56,Salmon Rice Bowl,cucumber,Vegetable,82,False,False,,21,45,3,Mediterranean,hard,breakfast
+56,Salmon Rice Bowl,avocado,Fruit,234,True,False,,9,2,6,Fusion,medium,dinner
+56,Salmon Rice Bowl,lemon,Fruit,40,False,False,,11,23,5,Mediterranean,medium,drink
+57,Avocado Toast,bread,Grain,202,True,False,,36,44,3,Indian,medium,dinner
+57,Avocado Toast,avocado,Fruit,34,False,False,,24,36,4,International,hard,lunch
+57,Avocado Toast,lemon,Fruit,54,False,False,,24,10,3,Indian,medium,lunch
+57,Avocado Toast,tomato,Vegetable,132,False,False,watermelon,32,3,1,International,hard,lunch
+58,Carrot Lemon Soup,carrot,Vegetable,139,False,False,,32,31,5,International,medium,snack
+58,Carrot Lemon Soup,lemon,Fruit,64,False,False,,11,56,4,Indian,medium,drink
+58,Carrot Lemon Soup,onion,Vegetable,203,False,False,,29,23,6,Mediterranean,easy,dinner
+58,Carrot Lemon Soup,garlic,Vegetable,134,False,False,,12,44,1,International,hard,snack
+58,Carrot Lemon Soup,potato,Vegetable,167,False,False,orange,15,58,2,Mediterranean,medium,snack
+59,Apple Banana Smoothie,apple,Fruit,203,False,False,,9,34,4,Fusion,hard,breakfast
+59,Apple Banana Smoothie,banana,Fruit,88,False,True,grape,37,58,4,International,hard,drink
+59,Apple Banana Smoothie,milk,Dairy,224,False,True,,25,40,4,Indian,medium,lunch
+59,Apple Banana Smoothie,yogurt,Dairy,149,True,True,orange,16,59,6,Indian,easy,dinner
+60,Corn Salsa,corn,Vegetable,197,False,False,,18,40,2,Fusion,easy,lunch
+60,Corn Salsa,tomato,Vegetable,250,False,False,pasta,7,27,5,Fusion,medium,snack
+60,Corn Salsa,onion,Vegetable,230,False,False,,44,0,6,International,hard,drink
+60,Corn Salsa,lemon,Fruit,114,False,True,,12,40,2,Indian,easy,dinner
+60,Corn Salsa,bell_pepper,Vegetable,38,False,False,bell_pepper,28,55,3,International,medium,snack
+61,Broccoli Cheese Soup,broccoli,Vegetable,53,False,True,onion,13,55,5,Mediterranean,medium,dinner
+61,Broccoli Cheese Soup,cheese,Dairy,217,False,False,tuna,6,45,6,Fusion,hard,dinner
+61,Broccoli Cheese Soup,milk,Dairy,69,False,False,,37,23,3,Mediterranean,medium,breakfast
+61,Broccoli Cheese Soup,onion,Vegetable,81,False,False,,11,8,2,International,easy,dinner
+61,Broccoli Cheese Soup,garlic,Vegetable,97,False,False,mushroom,37,2,2,Fusion,medium,dinner
+62,Almond Smoothie,almond,Nut,169,False,False,,45,59,5,Mediterranean,medium,lunch
+62,Almond Smoothie,banana,Fruit,249,False,False,,7,52,1,Fusion,medium,lunch
+62,Almond Smoothie,milk,Dairy,164,False,True,,14,39,6,Indian,hard,drink
+62,Almond Smoothie,oats,Grain,52,False,False,,43,26,2,International,hard,dinner
+63,Spinach Salad,spinach,Vegetable,230,False,False,potato,10,20,1,Indian,easy,lunch
+63,Spinach Salad,tomato,Vegetable,156,False,False,,14,7,2,Indian,hard,snack
+63,Spinach Salad,cucumber,Vegetable,187,False,False,tofu,36,29,6,Fusion,medium,breakfast
+63,Spinach Salad,avocado,Fruit,122,False,False,,17,36,6,Fusion,medium,snack
+63,Spinach Salad,lemon,Fruit,109,False,False,,9,47,3,Fusion,medium,drink
+64,Corn Salsa,corn,Vegetable,125,False,False,,5,37,3,Indian,hard,drink
+64,Corn Salsa,tomato,Vegetable,245,True,False,,8,22,4,Indian,easy,lunch
+64,Corn Salsa,onion,Vegetable,129,False,False,,13,46,6,Fusion,hard,breakfast
+64,Corn Salsa,lemon,Fruit,44,False,False,yogurt,34,51,1,International,easy,breakfast
+64,Corn Salsa,bell_pepper,Vegetable,247,False,True,,35,26,6,Mediterranean,hard,drink
+65,Almond Smoothie,almond,Nut,249,False,True,,10,3,5,Indian,hard,breakfast
+65,Almond Smoothie,banana,Fruit,31,False,True,,32,31,2,International,medium,drink
+65,Almond Smoothie,milk,Dairy,116,False,False,,7,60,2,Fusion,easy,dinner
+65,Almond Smoothie,oats,Grain,233,False,False,,8,3,2,Fusion,medium,breakfast
+66,Avocado Toast,bread,Grain,166,False,True,,24,53,5,Fusion,easy,snack
+66,Avocado Toast,avocado,Fruit,102,False,True,egg,26,13,5,International,hard,snack
+66,Avocado Toast,lemon,Fruit,214,False,False,,19,16,6,Indian,easy,dinner
+66,Avocado Toast,tomato,Vegetable,65,False,True,corn,27,60,1,Mediterranean,medium,lunch
+67,Walnut Oatmeal,oats,Grain,88,False,True,walnut,30,36,4,Fusion,easy,dinner
+67,Walnut Oatmeal,walnut,Nut,160,True,False,,34,9,3,Mediterranean,easy,drink
+67,Walnut Oatmeal,banana,Fruit,93,True,False,,14,17,1,Indian,medium,snack
+67,Walnut Oatmeal,milk,Dairy,60,False,False,,36,15,1,Mediterranean,medium,lunch
+68,Corn Salsa,corn,Vegetable,46,True,True,,42,59,6,International,medium,drink
+68,Corn Salsa,tomato,Vegetable,90,False,False,,35,12,5,Fusion,medium,breakfast
+68,Corn Salsa,onion,Vegetable,89,True,False,,41,34,4,Mediterranean,easy,dinner
+68,Corn Salsa,lemon,Fruit,182,False,True,milk,27,24,4,Fusion,medium,lunch
+68,Corn Salsa,bell_pepper,Vegetable,149,False,False,,21,9,2,Fusion,medium,lunch
+69,Mushroom Omelette,egg,Protein,228,False,False,,12,9,1,Indian,medium,dinner
+69,Mushroom Omelette,mushroom,Vegetable,63,False,False,bell_pepper,22,3,2,International,medium,dinner
+69,Mushroom Omelette,onion,Vegetable,56,False,False,garlic,28,36,2,International,medium,breakfast
+69,Mushroom Omelette,cheese,Dairy,189,False,False,,22,5,6,Indian,medium,drink
+70,Chickpea Curry,chickpeas,Legume,71,False,False,,17,8,6,Fusion,medium,lunch
+70,Chickpea Curry,tomato,Vegetable,163,True,True,,12,57,6,Mediterranean,medium,breakfast
+70,Chickpea Curry,onion,Vegetable,249,False,True,,6,47,5,International,hard,snack
+70,Chickpea Curry,garlic,Vegetable,168,False,True,,9,60,3,Indian,hard,dinner
+70,Chickpea Curry,spinach,Vegetable,195,False,False,,23,16,1,Indian,easy,dinner
+71,Green Smoothie,spinach,Vegetable,205,False,False,,15,8,2,Mediterranean,medium,drink
+71,Green Smoothie,banana,Fruit,77,False,False,lettuce,45,42,3,Indian,easy,drink
+71,Green Smoothie,apple,Fruit,177,False,False,,22,39,5,Fusion,easy,lunch
+71,Green Smoothie,lemon,Fruit,68,False,True,,23,49,2,International,hard,snack
+72,Cauliflower Rice,cauliflower,Vegetable,143,True,True,walnut,27,7,3,Fusion,medium,snack
+72,Cauliflower Rice,garlic,Vegetable,64,False,False,garlic,27,22,5,Fusion,hard,drink
+72,Cauliflower Rice,onion,Vegetable,55,False,False,,8,14,3,Mediterranean,medium,dinner
+72,Cauliflower Rice,egg,Protein,100,False,False,,40,21,2,Indian,easy,breakfast
+73,Fruit Salad,apple,Fruit,43,False,False,orange,16,6,4,Indian,hard,snack
+73,Fruit Salad,banana,Fruit,137,True,False,,41,29,2,Indian,hard,breakfast
+73,Fruit Salad,grape,Fruit,67,False,False,,20,13,1,International,medium,dinner
+73,Fruit Salad,strawberry,Fruit,236,True,False,grape,33,18,5,Mediterranean,easy,breakfast
+73,Fruit Salad,kiwi,Fruit,121,False,True,tomato,40,56,1,Indian,hard,snack
+74,Salmon Rice Bowl,salmon,Protein,135,False,False,kiwi,44,15,4,International,easy,lunch
+74,Salmon Rice Bowl,rice,Grain,227,False,False,broccoli,32,36,3,Fusion,hard,dinner
+74,Salmon Rice Bowl,cucumber,Vegetable,140,False,False,,14,0,3,Fusion,hard,drink
+74,Salmon Rice Bowl,avocado,Fruit,164,False,False,garlic,34,38,1,Mediterranean,easy,drink
+74,Salmon Rice Bowl,lemon,Fruit,204,True,False,,31,38,2,Fusion,easy,lunch
+75,Almond Smoothie,almond,Nut,63,True,False,,14,28,2,Fusion,easy,snack
+75,Almond Smoothie,banana,Fruit,32,True,False,egg,23,2,4,Fusion,hard,drink
+75,Almond Smoothie,milk,Dairy,71,True,False,,37,20,5,International,easy,snack
+75,Almond Smoothie,oats,Grain,161,False,False,,35,13,3,Indian,medium,lunch
+76,Tuna Salad,tuna,Protein,131,False,False,,34,58,1,International,medium,lunch
+76,Tuna Salad,lettuce,Vegetable,143,False,False,,14,35,1,International,medium,snack
+76,Tuna Salad,tomato,Vegetable,61,False,False,,21,43,4,Fusion,easy,breakfast
+76,Tuna Salad,cucumber,Vegetable,77,False,False,,16,12,6,Fusion,hard,snack
+76,Tuna Salad,lemon,Fruit,39,False,True,blueberry,29,9,5,Fusion,hard,lunch
+77,Chickpea Curry,chickpeas,Legume,109,False,True,,36,28,6,Fusion,medium,drink
+77,Chickpea Curry,tomato,Vegetable,217,False,True,,29,32,6,Indian,hard,drink
+77,Chickpea Curry,onion,Vegetable,240,False,False,,8,37,2,International,easy,snack
+77,Chickpea Curry,garlic,Vegetable,183,False,True,,9,30,3,Fusion,easy,dinner
+77,Chickpea Curry,spinach,Vegetable,243,False,False,pear,27,20,2,Fusion,easy,breakfast
+78,Cauliflower Rice,cauliflower,Vegetable,79,True,False,,17,46,4,Mediterranean,easy,lunch
+78,Cauliflower Rice,garlic,Vegetable,150,False,False,,20,8,1,Fusion,hard,lunch
+78,Cauliflower Rice,onion,Vegetable,191,False,True,,44,8,5,Fusion,hard,snack
+78,Cauliflower Rice,egg,Protein,149,False,True,,6,18,5,International,easy,snack
+79,Carrot Lemon Soup,carrot,Vegetable,218,False,False,,33,46,3,Indian,medium,breakfast
+79,Carrot Lemon Soup,lemon,Fruit,206,False,False,,9,34,5,Indian,hard,snack
+79,Carrot Lemon Soup,onion,Vegetable,202,False,False,avocado,10,37,1,Fusion,easy,drink
+79,Carrot Lemon Soup,garlic,Vegetable,134,False,True,carrot,30,51,5,Mediterranean,hard,lunch
+79,Carrot Lemon Soup,potato,Vegetable,167,False,True,,8,57,6,Mediterranean,hard,breakfast
+80,Cheese Omelette,egg,Protein,145,False,False,,35,27,3,Fusion,hard,drink
+80,Cheese Omelette,cheese,Dairy,171,False,True,,31,45,2,Mediterranean,easy,dinner
+80,Cheese Omelette,bell_pepper,Vegetable,189,True,False,walnut,28,26,2,International,easy,lunch
+80,Cheese Omelette,onion,Vegetable,166,False,False,cheese,16,37,1,Indian,easy,snack
+81,Carrot Lemon Soup,carrot,Vegetable,239,False,False,,42,42,3,Indian,hard,drink
+81,Carrot Lemon Soup,lemon,Fruit,121,False,True,,25,23,2,Indian,hard,breakfast
+81,Carrot Lemon Soup,onion,Vegetable,80,False,False,,28,58,4,Indian,hard,lunch
+81,Carrot Lemon Soup,garlic,Vegetable,178,False,False,tomato,5,60,2,Indian,medium,drink
+81,Carrot Lemon Soup,potato,Vegetable,249,False,False,rice,31,50,3,International,hard,drink
+82,Green Smoothie,spinach,Vegetable,229,False,True,,27,41,4,Indian,hard,lunch
+82,Green Smoothie,banana,Fruit,78,False,False,,6,52,2,Indian,hard,drink
+82,Green Smoothie,apple,Fruit,183,False,False,,20,57,6,Indian,easy,dinner
+82,Green Smoothie,lemon,Fruit,35,False,False,,8,32,1,Fusion,easy,lunch
+83,Chicken Stir Fry,chicken,Protein,245,False,False,,11,10,6,International,easy,lunch
+83,Chicken Stir Fry,broccoli,Vegetable,86,False,False,blueberry,18,42,6,Indian,hard,snack
+83,Chicken Stir Fry,carrot,Vegetable,204,False,True,,12,46,3,International,medium,snack
+83,Chicken Stir Fry,garlic,Vegetable,122,False,False,,35,27,2,Indian,hard,dinner
+83,Chicken Stir Fry,bell_pepper,Vegetable,60,False,False,lemon,9,18,2,Indian,easy,snack
+84,Mango Lassi,mango,Fruit,60,True,True,strawberry,29,18,3,Fusion,hard,lunch
+84,Mango Lassi,yogurt,Dairy,31,True,False,,13,50,3,Fusion,medium,breakfast
+84,Mango Lassi,milk,Dairy,126,True,False,,26,15,4,Indian,hard,lunch
+85,French Toast,bread,Grain,220,False,False,,20,51,2,International,easy,lunch
+85,French Toast,egg,Protein,212,False,False,,43,35,5,Fusion,easy,dinner
+85,French Toast,milk,Dairy,67,False,False,,12,12,6,Fusion,hard,drink
+85,French Toast,butter,Dairy,248,True,True,,27,8,3,International,easy,drink
+86,Banana Milkshake,banana,Fruit,61,False,False,,40,33,1,Fusion,easy,breakfast
+86,Banana Milkshake,milk,Dairy,209,False,False,lemon,29,7,1,Indian,medium,breakfast
+86,Banana Milkshake,yogurt,Dairy,42,False,True,,29,30,3,Mediterranean,hard,drink
+87,Banana Milkshake,banana,Fruit,142,False,True,,17,6,4,International,hard,drink
+87,Banana Milkshake,milk,Dairy,85,False,False,garlic,33,19,5,Indian,hard,dinner
+87,Banana Milkshake,yogurt,Dairy,142,False,False,zucchini,11,20,3,Mediterranean,medium,drink
+88,Beef Stew,beef,Protein,206,False,True,carrot,30,37,4,International,easy,drink
+88,Beef Stew,potato,Vegetable,192,True,False,,31,0,5,International,hard,lunch
+88,Beef Stew,carrot,Vegetable,129,False,True,,32,10,1,Fusion,hard,lunch
+88,Beef Stew,onion,Vegetable,94,True,False,,9,28,2,Indian,easy,breakfast
+88,Beef Stew,garlic,Vegetable,198,False,False,,18,44,6,International,medium,snack
+89,Tomato Egg Scramble,tomato,Vegetable,117,False,False,,42,39,5,Mediterranean,medium,lunch
+89,Tomato Egg Scramble,egg,Protein,187,True,True,,33,49,2,Indian,hard,drink
+89,Tomato Egg Scramble,onion,Vegetable,124,False,False,tomato,23,14,1,Indian,hard,drink
+89,Tomato Egg Scramble,garlic,Vegetable,120,False,False,tuna,38,56,6,Mediterranean,hard,snack
+90,Avocado Toast,bread,Grain,205,False,False,bell_pepper,23,59,2,International,hard,snack
+90,Avocado Toast,avocado,Fruit,40,False,False,,28,30,4,International,easy,breakfast
+90,Avocado Toast,lemon,Fruit,214,False,True,,38,46,5,Indian,hard,drink
+90,Avocado Toast,tomato,Vegetable,140,False,False,,20,53,5,International,easy,breakfast
+91,Tuna Salad,tuna,Protein,150,False,False,chicken,22,59,6,Fusion,hard,breakfast
+91,Tuna Salad,lettuce,Vegetable,47,False,False,,11,9,6,Mediterranean,hard,breakfast
+91,Tuna Salad,tomato,Vegetable,236,False,False,,8,26,6,International,medium,lunch
+91,Tuna Salad,cucumber,Vegetable,96,False,True,,41,37,4,Mediterranean,medium,dinner
+91,Tuna Salad,lemon,Fruit,33,False,False,blueberry,27,8,4,Fusion,hard,dinner
+92,Avocado Toast,bread,Grain,207,False,False,,31,56,6,Indian,easy,lunch
+92,Avocado Toast,avocado,Fruit,244,False,True,,31,53,3,Fusion,medium,lunch
+92,Avocado Toast,lemon,Fruit,42,False,True,,22,12,6,International,hard,snack
+92,Avocado Toast,tomato,Vegetable,70,False,False,rice,28,38,6,International,easy,dinner
+93,Peach Yogurt Parfait,peach,Fruit,197,False,True,lettuce,21,35,2,International,hard,lunch
+93,Peach Yogurt Parfait,yogurt,Dairy,169,False,True,,7,25,2,Mediterranean,hard,breakfast
+93,Peach Yogurt Parfait,oats,Grain,206,False,True,,42,51,2,International,hard,dinner
+93,Peach Yogurt Parfait,almond,Nut,226,False,True,,36,44,6,Indian,easy,drink
+94,Pasta Primavera,pasta,Grain,44,False,False,grape,28,35,5,Mediterranean,easy,dinner
+94,Pasta Primavera,tomato,Vegetable,187,False,False,,12,35,6,Mediterranean,easy,lunch
+94,Pasta Primavera,broccoli,Vegetable,89,False,False,,26,3,5,Mediterranean,easy,lunch
+94,Pasta Primavera,bell_pepper,Vegetable,245,False,True,,41,48,6,International,hard,drink
+94,Pasta Primavera,garlic,Vegetable,169,False,False,oats,38,31,2,International,medium,drink
+95,Berry Smoothie Bowl,strawberry,Fruit,113,False,False,,42,59,5,Fusion,hard,drink
+95,Berry Smoothie Bowl,banana,Fruit,47,False,False,tuna,26,4,3,Fusion,medium,snack
+95,Berry Smoothie Bowl,blueberry,Fruit,100,False,True,,16,29,2,Indian,easy,snack
+95,Berry Smoothie Bowl,yogurt,Dairy,91,False,False,butter,35,3,3,International,hard,breakfast
+96,Green Smoothie,spinach,Vegetable,201,False,False,blueberry,44,18,6,Fusion,medium,snack
+96,Green Smoothie,banana,Fruit,84,False,False,,43,36,2,Indian,medium,snack
+96,Green Smoothie,apple,Fruit,230,True,True,cauliflower,32,55,1,Fusion,hard,breakfast
+96,Green Smoothie,lemon,Fruit,180,False,False,,34,1,3,Mediterranean,hard,snack
+97,French Toast,bread,Grain,55,True,True,almond,9,14,4,International,easy,dinner
+97,French Toast,egg,Protein,124,False,True,,5,15,2,International,easy,breakfast
+97,French Toast,milk,Dairy,59,False,False,,44,41,6,Indian,hard,snack
+97,French Toast,butter,Dairy,140,False,False,lettuce,10,44,5,Fusion,medium,lunch
+98,Cauliflower Rice,cauliflower,Vegetable,94,True,False,,37,42,6,Fusion,medium,lunch
+98,Cauliflower Rice,garlic,Vegetable,215,False,False,,9,40,1,Fusion,easy,dinner
+98,Cauliflower Rice,onion,Vegetable,32,False,True,,41,11,6,International,easy,drink
+98,Cauliflower Rice,egg,Protein,46,False,False,,19,17,3,Mediterranean,medium,breakfast
+99,Pineapple Fried Rice,rice,Grain,87,False,True,,15,24,4,Fusion,hard,dinner
+99,Pineapple Fried Rice,pineapple,Fruit,246,False,True,,25,46,5,Indian,medium,drink
+99,Pineapple Fried Rice,egg,Protein,245,True,False,mango,25,11,2,Mediterranean,easy,snack
+99,Pineapple Fried Rice,onion,Vegetable,248,False,True,peas,17,57,5,Mediterranean,easy,snack
+99,Pineapple Fried Rice,carrot,Vegetable,58,False,True,,40,53,2,Fusion,hard,breakfast
+100,Corn Salsa,corn,Vegetable,156,False,True,,24,41,3,Indian,easy,dinner
+100,Corn Salsa,tomato,Vegetable,146,False,False,,16,4,1,International,hard,dinner
+100,Corn Salsa,onion,Vegetable,151,False,False,,21,18,1,Indian,medium,snack
+100,Corn Salsa,lemon,Fruit,179,False,False,,10,56,3,International,easy,snack
+100,Corn Salsa,bell_pepper,Vegetable,211,False,True,cauliflower,24,27,3,Fusion,easy,snack
+101,Lentil Soup,lentils,Legume,225,False,True,,5,1,4,Mediterranean,medium,lunch
+101,Lentil Soup,carrot,Vegetable,78,False,False,,23,10,2,Fusion,medium,breakfast
+101,Lentil Soup,onion,Vegetable,96,False,False,,37,20,1,Indian,easy,snack
+101,Lentil Soup,garlic,Vegetable,153,True,False,,20,9,6,Indian,easy,drink
+101,Lentil Soup,tomato,Vegetable,111,False,False,,33,20,2,Indian,hard,lunch
+102,Cheese Omelette,egg,Protein,128,False,True,,19,6,1,International,hard,breakfast
+102,Cheese Omelette,cheese,Dairy,219,False,True,,32,41,3,International,hard,dinner
+102,Cheese Omelette,bell_pepper,Vegetable,156,True,False,,35,56,5,Mediterranean,easy,breakfast
+102,Cheese Omelette,onion,Vegetable,163,False,True,,36,39,2,Fusion,hard,lunch
+103,Cheese Omelette,egg,Protein,175,False,True,corn,37,39,1,Indian,medium,dinner
+103,Cheese Omelette,cheese,Dairy,45,True,False,onion,7,14,6,Indian,medium,drink
+103,Cheese Omelette,bell_pepper,Vegetable,61,False,True,,5,42,5,Mediterranean,hard,breakfast
+103,Cheese Omelette,onion,Vegetable,59,False,True,,38,41,1,Mediterranean,hard,breakfast
+104,Broccoli Cheese Soup,broccoli,Vegetable,108,False,False,,23,55,3,Indian,hard,drink
+104,Broccoli Cheese Soup,cheese,Dairy,172,False,False,cheese,15,4,5,International,easy,dinner
+104,Broccoli Cheese Soup,milk,Dairy,250,True,False,,24,35,2,Mediterranean,easy,dinner
+104,Broccoli Cheese Soup,onion,Vegetable,137,False,False,,19,54,5,Fusion,easy,lunch
+104,Broccoli Cheese Soup,garlic,Vegetable,72,True,False,spinach,17,38,6,Mediterranean,medium,drink
+105,Carrot Lemon Soup,carrot,Vegetable,190,False,False,,26,49,3,Mediterranean,medium,lunch
+105,Carrot Lemon Soup,lemon,Fruit,210,False,False,,25,51,4,Fusion,medium,lunch
+105,Carrot Lemon Soup,onion,Vegetable,231,False,True,onion,21,4,2,Indian,medium,dinner
+105,Carrot Lemon Soup,garlic,Vegetable,94,False,False,,5,11,2,International,easy,lunch
+105,Carrot Lemon Soup,potato,Vegetable,90,False,False,,19,9,6,International,hard,drink
+106,Tuna Salad,tuna,Protein,185,False,False,,32,1,1,Fusion,easy,breakfast
+106,Tuna Salad,lettuce,Vegetable,138,False,True,,38,18,1,Indian,medium,drink
+106,Tuna Salad,tomato,Vegetable,198,False,False,,26,12,2,International,hard,snack
+106,Tuna Salad,cucumber,Vegetable,79,False,False,corn,23,9,1,Mediterranean,hard,dinner
+106,Tuna Salad,lemon,Fruit,212,False,False,,15,32,6,Indian,hard,dinner
+107,Walnut Oatmeal,oats,Grain,208,False,False,,23,53,2,International,hard,breakfast
+107,Walnut Oatmeal,walnut,Nut,224,False,False,,10,37,1,Indian,hard,drink
+107,Walnut Oatmeal,banana,Fruit,56,False,True,,13,45,4,Fusion,hard,lunch
+107,Walnut Oatmeal,milk,Dairy,156,False,False,pineapple,7,11,6,International,easy,snack
+108,Cauliflower Rice,cauliflower,Vegetable,70,False,True,corn,43,8,4,Mediterranean,hard,breakfast
+108,Cauliflower Rice,garlic,Vegetable,92,False,False,,9,42,2,Mediterranean,hard,dinner
+108,Cauliflower Rice,onion,Vegetable,178,True,True,,33,4,4,Mediterranean,easy,drink
+108,Cauliflower Rice,egg,Protein,196,False,False,orange,39,22,3,Fusion,easy,dinner
+109,Cauliflower Rice,cauliflower,Vegetable,154,False,True,,6,56,2,Indian,hard,snack
+109,Cauliflower Rice,garlic,Vegetable,54,False,True,banana,35,39,2,International,easy,drink
+109,Cauliflower Rice,onion,Vegetable,124,False,False,blueberry,17,1,6,Fusion,medium,snack
+109,Cauliflower Rice,egg,Protein,68,False,False,cauliflower,15,24,4,International,easy,drink
+110,Walnut Oatmeal,oats,Grain,123,False,False,lentils,11,60,5,Mediterranean,easy,dinner
+110,Walnut Oatmeal,walnut,Nut,86,False,False,carrot,39,31,3,International,easy,dinner
+110,Walnut Oatmeal,banana,Fruit,82,False,False,,17,51,3,International,medium,drink
+110,Walnut Oatmeal,milk,Dairy,228,False,True,,21,19,5,International,easy,dinner
+111,Tomato Egg Scramble,tomato,Vegetable,34,False,False,,38,39,4,Indian,easy,drink
+111,Tomato Egg Scramble,egg,Protein,87,False,False,,40,24,4,Fusion,hard,snack
+111,Tomato Egg Scramble,onion,Vegetable,133,False,False,,17,19,3,Mediterranean,easy,breakfast
+111,Tomato Egg Scramble,garlic,Vegetable,148,True,False,,27,20,1,International,medium,dinner
+112,Banana Milkshake,banana,Fruit,64,True,True,,23,50,2,Indian,easy,breakfast
+112,Banana Milkshake,milk,Dairy,144,False,False,,30,48,4,Fusion,hard,breakfast
+112,Banana Milkshake,yogurt,Dairy,206,False,True,broccoli,34,60,4,Mediterranean,hard,lunch
+113,Fruit Salad,apple,Fruit,131,False,False,,20,28,5,Mediterranean,easy,lunch
+113,Fruit Salad,banana,Fruit,31,False,False,,36,31,4,Mediterranean,hard,dinner
+113,Fruit Salad,grape,Fruit,44,False,False,,30,50,6,International,medium,breakfast
+113,Fruit Salad,strawberry,Fruit,221,False,False,,10,22,6,Fusion,medium,dinner
+113,Fruit Salad,kiwi,Fruit,233,False,True,,34,42,5,Indian,hard,lunch
+114,Chickpea Curry,chickpeas,Legume,66,False,False,,22,27,4,Mediterranean,hard,lunch
+114,Chickpea Curry,tomato,Vegetable,80,False,False,,8,9,6,Mediterranean,hard,snack
+114,Chickpea Curry,onion,Vegetable,199,False,False,,11,16,1,International,medium,breakfast
+114,Chickpea Curry,garlic,Vegetable,79,False,False,,25,5,3,Indian,easy,breakfast
+114,Chickpea Curry,spinach,Vegetable,245,False,True,,29,31,4,International,medium,drink
+115,Avocado Toast,bread,Grain,74,False,False,,24,59,4,Mediterranean,easy,breakfast
+115,Avocado Toast,avocado,Fruit,115,False,False,,35,49,2,Fusion,easy,breakfast
+115,Avocado Toast,lemon,Fruit,162,True,False,,14,5,2,Fusion,easy,snack
+115,Avocado Toast,tomato,Vegetable,138,False,False,,11,39,5,Mediterranean,medium,dinner
+116,Lentil Soup,lentils,Legume,81,False,True,pineapple,7,51,4,Fusion,medium,snack
+116,Lentil Soup,carrot,Vegetable,36,False,True,,34,12,6,Fusion,easy,lunch
+116,Lentil Soup,onion,Vegetable,177,False,True,,10,10,4,Fusion,medium,drink
+116,Lentil Soup,garlic,Vegetable,167,False,True,,8,39,5,International,medium,lunch
+116,Lentil Soup,tomato,Vegetable,123,True,True,,34,53,3,Fusion,medium,snack
+117,Banana Milkshake,banana,Fruit,213,True,True,,40,29,1,Indian,easy,drink
+117,Banana Milkshake,milk,Dairy,34,False,False,mango,12,25,2,Mediterranean,easy,breakfast
+117,Banana Milkshake,yogurt,Dairy,53,True,True,cherry,26,48,6,International,medium,drink
+118,Apple Banana Smoothie,apple,Fruit,41,False,False,,37,34,4,International,hard,dinner
+118,Apple Banana Smoothie,banana,Fruit,51,False,False,,24,51,1,Fusion,medium,snack
+118,Apple Banana Smoothie,milk,Dairy,102,False,True,,42,10,2,International,hard,breakfast
+118,Apple Banana Smoothie,yogurt,Dairy,227,False,False,,39,56,3,International,hard,drink
+119,Fruit Salad,apple,Fruit,78,False,True,salmon,27,5,4,Mediterranean,easy,breakfast
+119,Fruit Salad,banana,Fruit,169,False,False,,29,39,5,Fusion,medium,drink
+119,Fruit Salad,grape,Fruit,150,False,False,,34,44,2,Mediterranean,hard,drink
+119,Fruit Salad,strawberry,Fruit,216,False,False,,7,46,5,Fusion,hard,drink
+119,Fruit Salad,kiwi,Fruit,198,False,False,potato,18,44,6,Fusion,hard,snack
+120,Tuna Salad,tuna,Protein,239,False,True,,38,1,1,Indian,medium,breakfast
+120,Tuna Salad,lettuce,Vegetable,196,True,True,,29,59,3,Indian,hard,breakfast
+120,Tuna Salad,tomato,Vegetable,70,True,False,,20,20,5,Fusion,hard,snack
+120,Tuna Salad,cucumber,Vegetable,227,False,True,,27,8,4,International,hard,snack
+120,Tuna Salad,lemon,Fruit,92,False,False,,33,25,1,Mediterranean,hard,snack
+121,Berry Smoothie Bowl,strawberry,Fruit,131,True,False,,10,55,6,Mediterranean,hard,drink
+121,Berry Smoothie Bowl,banana,Fruit,72,False,False,lentils,39,45,1,Fusion,medium,breakfast
+121,Berry Smoothie Bowl,blueberry,Fruit,231,False,False,pear,20,8,6,International,medium,snack
+121,Berry Smoothie Bowl,yogurt,Dairy,207,False,False,,21,46,1,Indian,hard,snack
+122,French Toast,bread,Grain,60,True,False,chickpeas,14,55,4,International,easy,breakfast
+122,French Toast,egg,Protein,130,False,True,oats,45,6,5,International,hard,drink
+122,French Toast,milk,Dairy,62,False,True,,6,38,6,Fusion,hard,snack
+122,French Toast,butter,Dairy,92,False,False,lemon,29,49,4,International,medium,lunch
+123,Beef Stew,beef,Protein,216,False,False,,29,52,2,Indian,medium,dinner
+123,Beef Stew,potato,Vegetable,63,False,False,bread,44,5,2,International,hard,breakfast
+123,Beef Stew,carrot,Vegetable,32,False,True,,45,49,6,Mediterranean,easy,drink
+123,Beef Stew,onion,Vegetable,236,False,False,,9,18,1,Mediterranean,hard,lunch
+123,Beef Stew,garlic,Vegetable,206,False,False,beef,18,12,5,Indian,hard,drink
+124,Green Smoothie,spinach,Vegetable,117,False,True,,42,59,4,Fusion,easy,dinner
+124,Green Smoothie,banana,Fruit,70,False,False,,41,28,2,Fusion,easy,snack
+124,Green Smoothie,apple,Fruit,146,False,True,oats,19,28,6,Indian,hard,breakfast
+124,Green Smoothie,lemon,Fruit,90,True,False,,23,58,2,Indian,hard,breakfast
+125,Avocado Toast,bread,Grain,203,False,True,,40,14,2,International,hard,snack
+125,Avocado Toast,avocado,Fruit,122,True,False,butter,9,32,3,International,hard,snack
+125,Avocado Toast,lemon,Fruit,106,False,False,oats,8,48,1,Mediterranean,medium,drink
+125,Avocado Toast,tomato,Vegetable,181,True,False,peas,40,47,1,Mediterranean,hard,breakfast
+126,Chickpea Curry,chickpeas,Legume,118,False,True,,36,53,3,Mediterranean,easy,snack
+126,Chickpea Curry,tomato,Vegetable,154,False,False,mushroom,39,34,6,Mediterranean,medium,lunch
+126,Chickpea Curry,onion,Vegetable,153,False,False,,17,35,4,Mediterranean,hard,drink
+126,Chickpea Curry,garlic,Vegetable,206,False,True,,24,41,2,Indian,hard,breakfast
+126,Chickpea Curry,spinach,Vegetable,216,False,False,,11,25,5,International,easy,snack
+127,Beef Stew,beef,Protein,227,False,False,,24,8,6,Indian,medium,snack
+127,Beef Stew,potato,Vegetable,133,False,False,onion,15,25,4,Fusion,medium,dinner
+127,Beef Stew,carrot,Vegetable,75,False,False,,39,59,1,Fusion,easy,breakfast
+127,Beef Stew,onion,Vegetable,234,False,True,,22,40,4,Indian,hard,dinner
+127,Beef Stew,garlic,Vegetable,57,True,True,,44,21,1,Indian,hard,drink
+128,Spinach Salad,spinach,Vegetable,150,False,True,,33,6,4,Mediterranean,medium,lunch
+128,Spinach Salad,tomato,Vegetable,247,True,False,,26,53,3,Indian,medium,snack
+128,Spinach Salad,cucumber,Vegetable,217,False,False,carrot,34,18,2,Fusion,hard,drink
+128,Spinach Salad,avocado,Fruit,54,False,False,,36,48,3,Mediterranean,medium,breakfast
+128,Spinach Salad,lemon,Fruit,177,False,False,,29,13,6,Indian,medium,breakfast
+129,Corn Salsa,corn,Vegetable,82,False,False,,42,57,3,Mediterranean,hard,drink
+129,Corn Salsa,tomato,Vegetable,107,True,False,,32,48,2,Fusion,easy,drink
+129,Corn Salsa,onion,Vegetable,171,True,False,oats,38,10,2,Indian,medium,lunch
+129,Corn Salsa,lemon,Fruit,199,False,True,,27,9,1,Indian,hard,lunch
+129,Corn Salsa,bell_pepper,Vegetable,228,False,False,,44,1,3,International,hard,snack
+130,Beef Stew,beef,Protein,207,False,False,,25,15,3,Mediterranean,medium,breakfast
+130,Beef Stew,potato,Vegetable,180,False,False,,26,41,1,Mediterranean,easy,snack
+130,Beef Stew,carrot,Vegetable,47,False,False,,34,59,5,Indian,medium,lunch
+130,Beef Stew,onion,Vegetable,130,False,False,,22,48,2,International,easy,lunch
+130,Beef Stew,garlic,Vegetable,165,False,False,,24,25,1,Indian,medium,drink
+131,Spinach Salad,spinach,Vegetable,224,False,False,,34,52,1,Indian,medium,breakfast
+131,Spinach Salad,tomato,Vegetable,105,False,True,,45,4,3,International,medium,breakfast
+131,Spinach Salad,cucumber,Vegetable,95,False,True,,39,56,2,Indian,easy,lunch
+131,Spinach Salad,avocado,Fruit,54,False,False,,35,51,1,Fusion,hard,breakfast
+131,Spinach Salad,lemon,Fruit,122,False,True,,36,8,4,Indian,medium,snack
+132,Mushroom Omelette,egg,Protein,204,False,True,,23,47,1,Mediterranean,medium,breakfast
+132,Mushroom Omelette,mushroom,Vegetable,43,False,False,,23,18,3,Indian,hard,lunch
+132,Mushroom Omelette,onion,Vegetable,158,False,False,,13,39,3,International,hard,drink
+132,Mushroom Omelette,cheese,Dairy,169,True,False,,32,51,3,Mediterranean,easy,dinner
+133,Mushroom Omelette,egg,Protein,221,False,True,,25,31,3,Fusion,hard,breakfast
+133,Mushroom Omelette,mushroom,Vegetable,222,False,True,,27,37,5,International,easy,dinner
+133,Mushroom Omelette,onion,Vegetable,123,False,True,,40,34,1,Mediterranean,easy,snack
+133,Mushroom Omelette,cheese,Dairy,181,False,False,,32,35,5,International,hard,lunch
+134,Pasta Primavera,pasta,Grain,195,False,False,lemon,26,30,6,Mediterranean,medium,breakfast
+134,Pasta Primavera,tomato,Vegetable,78,True,False,,32,31,6,Mediterranean,easy,breakfast
+134,Pasta Primavera,broccoli,Vegetable,85,False,False,,44,18,6,Fusion,medium,snack
+134,Pasta Primavera,bell_pepper,Vegetable,190,False,False,onion,25,42,4,Mediterranean,hard,drink
+134,Pasta Primavera,garlic,Vegetable,179,False,False,,11,39,3,International,hard,lunch
+135,Walnut Oatmeal,oats,Grain,86,False,False,chicken,32,1,1,Fusion,medium,snack
+135,Walnut Oatmeal,walnut,Nut,59,False,False,,34,31,6,Indian,hard,dinner
+135,Walnut Oatmeal,banana,Fruit,191,False,False,,44,25,1,Fusion,easy,drink
+135,Walnut Oatmeal,milk,Dairy,249,False,False,yogurt,23,6,2,Mediterranean,medium,breakfast
+136,Avocado Toast,bread,Grain,247,False,False,salmon,19,53,2,International,medium,snack
+136,Avocado Toast,avocado,Fruit,180,False,True,,25,50,4,International,easy,drink
+136,Avocado Toast,lemon,Fruit,140,False,False,,19,8,6,Mediterranean,easy,snack
+136,Avocado Toast,tomato,Vegetable,188,True,False,chicken,19,40,6,Fusion,medium,lunch
+137,Cheese Omelette,egg,Protein,144,False,False,apple,27,20,3,Mediterranean,easy,breakfast
+137,Cheese Omelette,cheese,Dairy,211,False,False,,40,33,4,International,hard,breakfast
+137,Cheese Omelette,bell_pepper,Vegetable,190,True,False,,6,52,3,Mediterranean,hard,lunch
+137,Cheese Omelette,onion,Vegetable,89,False,False,beef,33,26,2,International,medium,breakfast
+138,Almond Smoothie,almond,Nut,199,False,False,,31,15,1,Indian,hard,drink
+138,Almond Smoothie,banana,Fruit,133,False,False,lettuce,7,28,4,Fusion,hard,drink
+138,Almond Smoothie,milk,Dairy,214,False,True,,31,55,5,International,easy,dinner
+138,Almond Smoothie,oats,Grain,85,False,False,cauliflower,36,13,1,Mediterranean,medium,dinner
+139,Broccoli Cheese Soup,broccoli,Vegetable,239,False,True,,43,41,3,International,medium,drink
+139,Broccoli Cheese Soup,cheese,Dairy,204,False,True,onion,37,50,1,Fusion,easy,snack
+139,Broccoli Cheese Soup,milk,Dairy,113,False,False,,41,40,3,International,easy,snack
+139,Broccoli Cheese Soup,onion,Vegetable,106,False,False,,21,35,5,Mediterranean,medium,lunch
+139,Broccoli Cheese Soup,garlic,Vegetable,209,False,False,,18,11,5,Fusion,medium,snack
+140,Garlic Mushroom Toast,bread,Grain,169,False,False,butter,9,40,4,Indian,easy,drink
+140,Garlic Mushroom Toast,mushroom,Vegetable,77,True,False,,41,17,1,International,easy,dinner
+140,Garlic Mushroom Toast,garlic,Vegetable,175,False,False,,45,39,2,International,medium,snack
+140,Garlic Mushroom Toast,butter,Dairy,229,False,False,,23,21,3,Indian,hard,drink
+141,Salmon Rice Bowl,salmon,Protein,154,False,False,oats,14,48,2,Indian,hard,breakfast
+141,Salmon Rice Bowl,rice,Grain,186,False,False,,30,42,3,Mediterranean,medium,drink
+141,Salmon Rice Bowl,cucumber,Vegetable,219,False,True,potato,29,15,5,International,hard,lunch
+141,Salmon Rice Bowl,avocado,Fruit,76,False,False,,45,37,4,Mediterranean,medium,snack
+141,Salmon Rice Bowl,lemon,Fruit,90,True,False,,42,50,5,Fusion,easy,snack
+142,Garlic Mushroom Toast,bread,Grain,142,True,True,,10,43,1,Fusion,medium,lunch
+142,Garlic Mushroom Toast,mushroom,Vegetable,129,False,True,onion,24,24,1,International,easy,dinner
+142,Garlic Mushroom Toast,garlic,Vegetable,217,False,False,pear,45,11,5,Mediterranean,hard,snack
+142,Garlic Mushroom Toast,butter,Dairy,78,True,False,,45,41,5,Fusion,hard,lunch
+143,Mango Lassi,mango,Fruit,136,False,False,,12,34,3,Indian,easy,breakfast
+143,Mango Lassi,yogurt,Dairy,76,False,True,,15,6,6,Indian,hard,snack
+143,Mango Lassi,milk,Dairy,47,False,False,pineapple,40,46,3,International,medium,drink
+144,Banana Milkshake,banana,Fruit,230,False,False,,31,20,4,International,medium,lunch
+144,Banana Milkshake,milk,Dairy,163,True,False,,24,54,3,Mediterranean,easy,lunch
+144,Banana Milkshake,yogurt,Dairy,204,False,False,,28,14,4,Indian,medium,dinner
+145,Salmon Rice Bowl,salmon,Protein,159,True,False,,43,33,3,International,easy,snack
+145,Salmon Rice Bowl,rice,Grain,210,False,False,,13,59,2,International,easy,dinner
+145,Salmon Rice Bowl,cucumber,Vegetable,221,False,False,,22,26,1,Mediterranean,easy,lunch
+145,Salmon Rice Bowl,avocado,Fruit,145,False,True,,45,42,6,Mediterranean,medium,dinner
+145,Salmon Rice Bowl,lemon,Fruit,191,True,True,,24,29,6,Mediterranean,medium,drink
+146,Peach Yogurt Parfait,peach,Fruit,240,False,True,,6,28,1,International,medium,breakfast
+146,Peach Yogurt Parfait,yogurt,Dairy,170,False,False,,14,56,1,Fusion,medium,lunch
+146,Peach Yogurt Parfait,oats,Grain,77,False,False,grape,17,40,5,Indian,hard,dinner
+146,Peach Yogurt Parfait,almond,Nut,191,False,False,spinach,25,41,5,International,medium,breakfast
+147,Beef Stew,beef,Protein,132,False,False,cauliflower,25,3,4,Mediterranean,medium,lunch
+147,Beef Stew,potato,Vegetable,71,False,False,peas,36,28,3,Indian,hard,drink
+147,Beef Stew,carrot,Vegetable,81,True,False,,32,32,3,International,medium,lunch
+147,Beef Stew,onion,Vegetable,84,False,False,,20,20,3,Mediterranean,medium,snack
+147,Beef Stew,garlic,Vegetable,71,False,False,,12,42,6,Fusion,hard,breakfast
+148,Spinach Salad,spinach,Vegetable,107,False,False,,20,32,1,International,medium,snack
+148,Spinach Salad,tomato,Vegetable,44,False,False,,40,27,4,Mediterranean,easy,snack
+148,Spinach Salad,cucumber,Vegetable,225,False,False,peas,8,16,6,Indian,easy,drink
+148,Spinach Salad,avocado,Fruit,199,False,False,blueberry,14,33,1,International,hard,snack
+148,Spinach Salad,lemon,Fruit,183,False,True,,9,13,3,Mediterranean,easy,breakfast
+149,Beef Stew,beef,Protein,141,False,True,,32,24,4,Fusion,easy,drink
+149,Beef Stew,potato,Vegetable,140,False,False,,34,1,2,International,medium,dinner
+149,Beef Stew,carrot,Vegetable,188,False,True,cream,20,39,4,Fusion,easy,dinner
+149,Beef Stew,onion,Vegetable,86,True,False,potato,7,57,1,Fusion,medium,snack
+149,Beef Stew,garlic,Vegetable,58,False,True,,40,33,5,International,medium,breakfast
+150,Fruit Salad,apple,Fruit,70,False,True,,44,4,2,Mediterranean,easy,dinner
+150,Fruit Salad,banana,Fruit,79,False,False,,30,27,6,International,hard,dinner
+150,Fruit Salad,grape,Fruit,34,False,False,bell_pepper,37,50,3,International,medium,snack
+150,Fruit Salad,strawberry,Fruit,124,False,False,,16,54,2,Mediterranean,hard,breakfast
+150,Fruit Salad,kiwi,Fruit,51,False,True,,34,22,5,Fusion,medium,drink
+151,Mango Lassi,mango,Fruit,128,False,False,,9,38,2,Fusion,easy,snack
+151,Mango Lassi,yogurt,Dairy,37,False,False,cucumber,8,33,1,Mediterranean,easy,lunch
+151,Mango Lassi,milk,Dairy,235,False,False,cucumber,15,18,2,Indian,medium,drink
+152,Zucchini Pasta,pasta,Grain,100,False,False,,21,20,3,Fusion,easy,snack
+152,Zucchini Pasta,zucchini,Vegetable,64,False,False,,17,50,5,Mediterranean,hard,drink
+152,Zucchini Pasta,tomato,Vegetable,206,False,False,butter,14,57,5,International,easy,snack
+152,Zucchini Pasta,garlic,Vegetable,186,False,False,,41,46,6,Mediterranean,hard,snack
+152,Zucchini Pasta,cheese,Dairy,200,False,False,orange,30,22,3,Mediterranean,medium,breakfast
+153,Veggie Stir Fry,broccoli,Vegetable,118,False,True,,28,35,1,Indian,hard,breakfast
+153,Veggie Stir Fry,carrot,Vegetable,136,False,True,,35,30,6,International,hard,breakfast
+153,Veggie Stir Fry,bell_pepper,Vegetable,78,False,True,,22,46,6,International,hard,breakfast
+153,Veggie Stir Fry,garlic,Vegetable,36,False,False,salmon,43,57,2,Mediterranean,hard,lunch
+153,Veggie Stir Fry,corn,Vegetable,229,False,True,,12,0,5,Mediterranean,hard,drink
+154,Chicken Stir Fry,chicken,Protein,73,False,True,potato,17,42,1,Indian,medium,dinner
+154,Chicken Stir Fry,broccoli,Vegetable,53,False,True,milk,16,6,3,International,medium,snack
+154,Chicken Stir Fry,carrot,Vegetable,200,True,False,,33,56,1,Mediterranean,easy,lunch
+154,Chicken Stir Fry,garlic,Vegetable,32,True,False,,28,0,6,Indian,hard,drink
+154,Chicken Stir Fry,bell_pepper,Vegetable,145,False,False,,8,41,3,International,hard,drink
+155,Cauliflower Rice,cauliflower,Vegetable,97,True,True,,21,56,2,International,medium,drink
+155,Cauliflower Rice,garlic,Vegetable,73,False,True,,10,59,2,Fusion,easy,breakfast
+155,Cauliflower Rice,onion,Vegetable,66,False,False,,20,44,1,International,medium,breakfast
+155,Cauliflower Rice,egg,Protein,91,True,False,,42,0,3,Mediterranean,hard,dinner
+156,Pasta Primavera,pasta,Grain,157,False,False,bread,37,6,1,Indian,hard,snack
+156,Pasta Primavera,tomato,Vegetable,193,False,True,,40,31,4,Mediterranean,medium,drink
+156,Pasta Primavera,broccoli,Vegetable,108,False,False,bread,17,46,2,Fusion,hard,snack
+156,Pasta Primavera,bell_pepper,Vegetable,161,False,False,,9,32,6,Indian,easy,lunch
+156,Pasta Primavera,garlic,Vegetable,219,False,False,kiwi,35,45,3,Indian,medium,breakfast
+157,Avocado Toast,bread,Grain,45,False,False,,11,57,1,Mediterranean,easy,snack
+157,Avocado Toast,avocado,Fruit,172,False,False,,27,43,4,International,medium,lunch
+157,Avocado Toast,lemon,Fruit,119,False,True,pasta,13,51,4,Indian,easy,snack
+157,Avocado Toast,tomato,Vegetable,243,False,False,,44,38,2,Mediterranean,easy,drink
+158,Chicken Stir Fry,chicken,Protein,36,True,False,,6,37,6,Mediterranean,medium,breakfast
+158,Chicken Stir Fry,broccoli,Vegetable,246,False,True,tomato,43,40,6,Fusion,easy,drink
+158,Chicken Stir Fry,carrot,Vegetable,229,False,False,,40,36,3,Mediterranean,medium,dinner
+158,Chicken Stir Fry,garlic,Vegetable,185,False,False,,33,4,2,Indian,easy,lunch
+158,Chicken Stir Fry,bell_pepper,Vegetable,181,True,False,chickpeas,15,6,2,Fusion,hard,lunch
+159,French Toast,bread,Grain,62,True,True,,7,56,1,Indian,medium,lunch
+159,French Toast,egg,Protein,189,False,True,lemon,43,12,6,Indian,hard,dinner
+159,French Toast,milk,Dairy,158,False,True,olive_oil,33,22,2,Indian,easy,lunch
+159,French Toast,butter,Dairy,113,False,False,mushroom,5,27,6,International,easy,breakfast
+160,Green Smoothie,spinach,Vegetable,91,False,True,tomato,5,22,2,Fusion,hard,snack
+160,Green Smoothie,banana,Fruit,63,False,False,almond,42,31,4,International,hard,lunch
+160,Green Smoothie,apple,Fruit,113,True,False,,29,31,3,Indian,easy,drink
+160,Green Smoothie,lemon,Fruit,54,False,False,cheese,28,49,4,Fusion,easy,dinner
+161,Fruit Salad,apple,Fruit,47,False,True,butter,40,30,6,Fusion,easy,drink
+161,Fruit Salad,banana,Fruit,124,False,False,,34,6,5,Fusion,easy,drink
+161,Fruit Salad,grape,Fruit,102,True,False,,37,23,4,International,hard,breakfast
+161,Fruit Salad,strawberry,Fruit,76,False,False,blueberry,8,3,3,Indian,medium,dinner
+161,Fruit Salad,kiwi,Fruit,171,False,False,,28,22,5,Mediterranean,medium,drink
+162,Almond Smoothie,almond,Nut,152,False,True,,12,33,4,Indian,easy,drink
+162,Almond Smoothie,banana,Fruit,123,False,False,,40,35,5,Fusion,easy,lunch
+162,Almond Smoothie,milk,Dairy,200,False,False,chickpeas,9,26,5,Indian,medium,drink
+162,Almond Smoothie,oats,Grain,47,False,False,lentils,29,55,2,International,medium,dinner
+163,Salmon Rice Bowl,salmon,Protein,227,False,False,,12,23,6,Mediterranean,hard,snack
+163,Salmon Rice Bowl,rice,Grain,62,False,False,,27,54,1,Mediterranean,easy,snack
+163,Salmon Rice Bowl,cucumber,Vegetable,101,False,False,,43,43,2,Mediterranean,easy,dinner
+163,Salmon Rice Bowl,avocado,Fruit,178,False,False,,29,6,4,International,medium,lunch
+163,Salmon Rice Bowl,lemon,Fruit,132,True,False,spinach,36,46,6,Indian,medium,snack
+164,Pasta Primavera,pasta,Grain,31,False,True,banana,14,40,5,Mediterranean,hard,breakfast
+164,Pasta Primavera,tomato,Vegetable,35,False,False,,11,1,4,Fusion,hard,breakfast
+164,Pasta Primavera,broccoli,Vegetable,225,True,True,,37,25,5,Indian,easy,drink
+164,Pasta Primavera,bell_pepper,Vegetable,167,False,False,lettuce,39,40,5,Fusion,medium,dinner
+164,Pasta Primavera,garlic,Vegetable,97,True,True,lentils,16,9,5,Mediterranean,easy,snack
+165,Cauliflower Rice,cauliflower,Vegetable,188,True,False,chickpeas,12,30,6,International,hard,drink
+165,Cauliflower Rice,garlic,Vegetable,110,False,False,,32,28,5,International,easy,drink
+165,Cauliflower Rice,onion,Vegetable,134,False,False,,28,37,3,Mediterranean,easy,snack
+165,Cauliflower Rice,egg,Protein,172,False,False,,26,37,6,Mediterranean,easy,breakfast
+166,Cauliflower Rice,cauliflower,Vegetable,163,False,False,lentils,38,57,1,Mediterranean,easy,snack
+166,Cauliflower Rice,garlic,Vegetable,80,False,False,,21,60,4,International,hard,snack
+166,Cauliflower Rice,onion,Vegetable,226,False,False,potato,38,7,2,Mediterranean,easy,dinner
+166,Cauliflower Rice,egg,Protein,198,False,True,,35,44,4,International,easy,lunch
+167,Broccoli Cheese Soup,broccoli,Vegetable,167,False,False,lettuce,45,37,3,Mediterranean,easy,dinner
+167,Broccoli Cheese Soup,cheese,Dairy,52,False,False,bell_pepper,43,58,6,Indian,hard,lunch
+167,Broccoli Cheese Soup,milk,Dairy,91,False,True,,10,17,2,Indian,medium,drink
+167,Broccoli Cheese Soup,onion,Vegetable,67,False,False,,26,47,6,Indian,medium,lunch
+167,Broccoli Cheese Soup,garlic,Vegetable,108,False,False,,8,33,6,Mediterranean,hard,drink
+168,Zucchini Pasta,pasta,Grain,226,False,False,,8,12,3,Indian,medium,drink
+168,Zucchini Pasta,zucchini,Vegetable,107,False,False,,13,45,5,International,medium,drink
+168,Zucchini Pasta,tomato,Vegetable,102,False,True,,13,28,1,Mediterranean,easy,snack
+168,Zucchini Pasta,garlic,Vegetable,153,False,False,milk,30,18,2,International,medium,drink
+168,Zucchini Pasta,cheese,Dairy,57,False,False,olive_oil,13,19,2,International,easy,dinner
+169,Veggie Stir Fry,broccoli,Vegetable,147,False,False,,14,48,6,Indian,hard,breakfast
+169,Veggie Stir Fry,carrot,Vegetable,147,True,False,tuna,30,0,5,Indian,easy,lunch
+169,Veggie Stir Fry,bell_pepper,Vegetable,222,False,True,strawberry,41,43,5,Fusion,easy,lunch
+169,Veggie Stir Fry,garlic,Vegetable,143,False,False,,17,5,3,International,easy,breakfast
+169,Veggie Stir Fry,corn,Vegetable,223,False,False,,36,7,4,Mediterranean,hard,lunch
+170,Lentil Soup,lentils,Legume,197,False,False,peas,20,27,5,Mediterranean,medium,snack
+170,Lentil Soup,carrot,Vegetable,192,False,False,cucumber,29,36,4,Indian,hard,snack
+170,Lentil Soup,onion,Vegetable,70,False,True,,45,42,6,Mediterranean,medium,drink
+170,Lentil Soup,garlic,Vegetable,73,False,False,,35,4,1,International,hard,snack
+170,Lentil Soup,tomato,Vegetable,89,False,True,,19,15,1,Indian,hard,lunch
+171,Broccoli Cheese Soup,broccoli,Vegetable,155,False,False,,25,19,4,International,hard,drink
+171,Broccoli Cheese Soup,cheese,Dairy,244,True,False,,10,1,2,Indian,hard,lunch
+171,Broccoli Cheese Soup,milk,Dairy,87,False,False,watermelon,37,21,6,Indian,easy,drink
+171,Broccoli Cheese Soup,onion,Vegetable,148,False,True,,23,54,1,International,easy,dinner
+171,Broccoli Cheese Soup,garlic,Vegetable,153,False,False,,23,0,4,International,medium,breakfast
+172,Berry Smoothie Bowl,strawberry,Fruit,118,False,False,cheese,22,2,5,Fusion,easy,snack
+172,Berry Smoothie Bowl,banana,Fruit,108,False,True,walnut,38,59,5,International,medium,drink
+172,Berry Smoothie Bowl,blueberry,Fruit,196,False,True,,26,9,4,International,medium,lunch
+172,Berry Smoothie Bowl,yogurt,Dairy,92,False,True,,11,31,4,Indian,medium,lunch
+173,Tuna Salad,tuna,Protein,207,True,True,,11,0,3,Fusion,easy,snack
+173,Tuna Salad,lettuce,Vegetable,230,False,True,,37,27,5,Mediterranean,easy,snack
+173,Tuna Salad,tomato,Vegetable,182,True,False,avocado,40,9,1,Indian,hard,lunch
+173,Tuna Salad,cucumber,Vegetable,43,True,True,chickpeas,38,38,2,Indian,hard,snack
+173,Tuna Salad,lemon,Fruit,172,False,True,,37,53,5,Fusion,medium,drink
+174,French Toast,bread,Grain,187,False,False,,21,57,4,Indian,hard,snack
+174,French Toast,egg,Protein,192,True,False,avocado,38,46,2,International,hard,lunch
+174,French Toast,milk,Dairy,171,False,True,kiwi,34,20,3,Mediterranean,easy,snack
+174,French Toast,butter,Dairy,207,True,False,,25,1,6,Indian,hard,drink
+175,Chicken Stir Fry,chicken,Protein,68,True,False,,33,31,4,Mediterranean,hard,snack
+175,Chicken Stir Fry,broccoli,Vegetable,169,False,False,apple,37,40,3,International,hard,snack
+175,Chicken Stir Fry,carrot,Vegetable,63,True,True,,18,8,5,Fusion,medium,drink
+175,Chicken Stir Fry,garlic,Vegetable,174,False,False,,37,60,5,International,medium,snack
+175,Chicken Stir Fry,bell_pepper,Vegetable,248,False,True,,41,44,6,Mediterranean,medium,breakfast
+176,Apple Banana Smoothie,apple,Fruit,85,False,False,,8,16,2,Indian,easy,dinner
+176,Apple Banana Smoothie,banana,Fruit,247,False,False,,5,48,3,International,medium,lunch
+176,Apple Banana Smoothie,milk,Dairy,107,False,False,,23,50,2,Fusion,medium,snack
+176,Apple Banana Smoothie,yogurt,Dairy,47,False,False,almond,33,60,5,Fusion,easy,snack
+177,Chickpea Curry,chickpeas,Legume,37,True,False,,16,49,3,Mediterranean,hard,drink
+177,Chickpea Curry,tomato,Vegetable,160,False,False,,27,44,6,International,hard,dinner
+177,Chickpea Curry,onion,Vegetable,68,False,False,,42,12,6,Mediterranean,easy,dinner
+177,Chickpea Curry,garlic,Vegetable,224,False,False,,6,16,6,Indian,easy,drink
+177,Chickpea Curry,spinach,Vegetable,91,False,False,,40,36,5,Indian,hard,drink
+178,Spinach Salad,spinach,Vegetable,104,False,True,,24,56,3,Mediterranean,hard,dinner
+178,Spinach Salad,tomato,Vegetable,241,False,False,,27,40,1,International,easy,drink
+178,Spinach Salad,cucumber,Vegetable,133,False,False,,19,55,6,International,easy,breakfast
+178,Spinach Salad,avocado,Fruit,141,False,False,,13,6,6,Indian,easy,snack
+178,Spinach Salad,lemon,Fruit,87,False,True,chickpeas,45,22,4,Indian,hard,dinner
+179,Pasta Primavera,pasta,Grain,234,False,False,,14,17,2,Indian,easy,dinner
+179,Pasta Primavera,tomato,Vegetable,187,False,False,,25,57,4,International,hard,lunch
+179,Pasta Primavera,broccoli,Vegetable,185,False,True,,5,34,3,Fusion,easy,lunch
+179,Pasta Primavera,bell_pepper,Vegetable,199,False,False,,42,39,1,Fusion,hard,lunch
+179,Pasta Primavera,garlic,Vegetable,245,False,True,,28,60,5,Fusion,medium,drink
+180,Garlic Mushroom Toast,bread,Grain,61,False,True,grape,20,27,6,Mediterranean,hard,drink
+180,Garlic Mushroom Toast,mushroom,Vegetable,240,False,False,cherry,29,14,1,Indian,medium,lunch
+180,Garlic Mushroom Toast,garlic,Vegetable,150,False,False,,39,50,1,Indian,hard,dinner
+180,Garlic Mushroom Toast,butter,Dairy,100,False,False,,27,9,5,Indian,hard,dinner
+181,Pasta Primavera,pasta,Grain,42,False,True,,26,51,3,Mediterranean,hard,lunch
+181,Pasta Primavera,tomato,Vegetable,112,False,True,kiwi,6,11,2,Indian,easy,snack
+181,Pasta Primavera,broccoli,Vegetable,224,False,False,,7,54,3,International,easy,dinner
+181,Pasta Primavera,bell_pepper,Vegetable,229,False,False,broccoli,34,34,6,Fusion,hard,breakfast
+181,Pasta Primavera,garlic,Vegetable,239,False,False,,19,12,4,Indian,hard,drink
+182,Chickpea Curry,chickpeas,Legume,120,False,False,lentils,9,52,6,Fusion,medium,dinner
+182,Chickpea Curry,tomato,Vegetable,96,False,True,,18,11,2,Indian,medium,breakfast
+182,Chickpea Curry,onion,Vegetable,120,False,False,salmon,10,28,4,Mediterranean,hard,dinner
+182,Chickpea Curry,garlic,Vegetable,35,False,True,,7,0,4,International,easy,dinner
+182,Chickpea Curry,spinach,Vegetable,238,False,True,,36,21,5,Indian,medium,dinner
+183,Corn Salsa,corn,Vegetable,169,False,True,,16,12,5,International,medium,breakfast
+183,Corn Salsa,tomato,Vegetable,209,False,True,chickpeas,45,1,4,Mediterranean,easy,dinner
+183,Corn Salsa,onion,Vegetable,156,False,False,kiwi,41,54,5,International,easy,breakfast
+183,Corn Salsa,lemon,Fruit,70,False,False,,15,8,1,Mediterranean,easy,breakfast
+183,Corn Salsa,bell_pepper,Vegetable,140,False,False,,22,22,1,Mediterranean,hard,snack
+184,Veggie Stir Fry,broccoli,Vegetable,85,False,True,cream,23,38,4,Fusion,easy,breakfast
+184,Veggie Stir Fry,carrot,Vegetable,111,False,False,bread,34,40,3,International,hard,lunch
+184,Veggie Stir Fry,bell_pepper,Vegetable,185,False,True,,29,22,3,Fusion,hard,dinner
+184,Veggie Stir Fry,garlic,Vegetable,168,True,True,,25,51,2,Mediterranean,hard,dinner
+184,Veggie Stir Fry,corn,Vegetable,158,False,False,peach,27,3,5,International,easy,lunch
+185,Corn Salsa,corn,Vegetable,35,True,False,,16,51,2,Indian,medium,lunch
+185,Corn Salsa,tomato,Vegetable,231,False,False,,15,35,1,International,medium,drink
+185,Corn Salsa,onion,Vegetable,149,False,False,,25,55,2,International,easy,snack
+185,Corn Salsa,lemon,Fruit,126,True,True,,12,7,5,Mediterranean,easy,breakfast
+185,Corn Salsa,bell_pepper,Vegetable,225,False,False,,28,50,3,Indian,easy,breakfast
+186,Zucchini Pasta,pasta,Grain,174,False,False,,16,38,3,International,hard,snack
+186,Zucchini Pasta,zucchini,Vegetable,104,False,False,,35,1,2,Fusion,medium,snack
+186,Zucchini Pasta,tomato,Vegetable,74,True,False,carrot,14,54,1,Mediterranean,hard,breakfast
+186,Zucchini Pasta,garlic,Vegetable,179,False,False,,41,50,3,Indian,hard,drink
+186,Zucchini Pasta,cheese,Dairy,216,True,False,,8,27,3,Fusion,hard,snack
+187,Mushroom Omelette,egg,Protein,220,False,False,,44,32,5,Mediterranean,medium,snack
+187,Mushroom Omelette,mushroom,Vegetable,48,False,False,,33,55,1,Indian,medium,dinner
+187,Mushroom Omelette,onion,Vegetable,186,False,False,,5,26,1,Indian,easy,breakfast
+187,Mushroom Omelette,cheese,Dairy,78,True,False,,34,55,3,International,easy,snack
+188,French Toast,bread,Grain,124,False,False,,22,19,3,Indian,medium,snack
+188,French Toast,egg,Protein,112,False,False,,41,6,3,Fusion,hard,lunch
+188,French Toast,milk,Dairy,189,False,False,,12,55,3,International,medium,drink
+188,French Toast,butter,Dairy,35,False,True,peach,5,49,2,Mediterranean,hard,lunch
+189,Corn Salsa,corn,Vegetable,135,True,True,,20,11,2,International,hard,breakfast
+189,Corn Salsa,tomato,Vegetable,224,False,False,walnut,11,31,5,International,hard,drink
+189,Corn Salsa,onion,Vegetable,113,False,True,milk,9,44,5,Fusion,medium,snack
+189,Corn Salsa,lemon,Fruit,32,False,True,,22,38,1,International,easy,lunch
+189,Corn Salsa,bell_pepper,Vegetable,54,False,True,,7,58,3,Mediterranean,easy,breakfast
+190,Broccoli Cheese Soup,broccoli,Vegetable,145,False,True,,31,31,4,International,easy,drink
+190,Broccoli Cheese Soup,cheese,Dairy,246,False,False,,6,50,1,Mediterranean,easy,drink
+190,Broccoli Cheese Soup,milk,Dairy,44,False,False,,38,28,5,Fusion,easy,snack
+190,Broccoli Cheese Soup,onion,Vegetable,84,False,True,,23,48,4,Fusion,medium,breakfast
+190,Broccoli Cheese Soup,garlic,Vegetable,115,False,False,,19,59,2,International,hard,drink
+191,Veggie Stir Fry,broccoli,Vegetable,209,False,False,bread,5,38,1,Indian,medium,snack
+191,Veggie Stir Fry,carrot,Vegetable,208,True,False,,16,53,4,Mediterranean,hard,breakfast
+191,Veggie Stir Fry,bell_pepper,Vegetable,146,False,False,,45,35,4,Mediterranean,medium,breakfast
+191,Veggie Stir Fry,garlic,Vegetable,69,True,False,,23,46,3,Fusion,easy,dinner
+191,Veggie Stir Fry,corn,Vegetable,244,False,False,milk,26,55,5,International,medium,drink
+192,Veggie Stir Fry,broccoli,Vegetable,85,True,False,,37,0,1,International,hard,dinner
+192,Veggie Stir Fry,carrot,Vegetable,120,False,False,,17,20,2,Mediterranean,medium,breakfast
+192,Veggie Stir Fry,bell_pepper,Vegetable,235,False,False,,45,59,5,Indian,easy,breakfast
+192,Veggie Stir Fry,garlic,Vegetable,40,False,False,,36,19,1,Fusion,medium,snack
+192,Veggie Stir Fry,corn,Vegetable,94,False,False,pear,41,3,2,International,medium,dinner
+193,Tomato Egg Scramble,tomato,Vegetable,69,False,True,beef,13,25,2,International,medium,breakfast
+193,Tomato Egg Scramble,egg,Protein,197,False,True,,9,13,6,Indian,hard,lunch
+193,Tomato Egg Scramble,onion,Vegetable,244,True,False,,32,6,3,Fusion,easy,dinner
+193,Tomato Egg Scramble,garlic,Vegetable,208,True,False,,35,44,3,International,easy,lunch
+194,Tomato Egg Scramble,tomato,Vegetable,173,False,True,tofu,18,10,5,Mediterranean,medium,snack
+194,Tomato Egg Scramble,egg,Protein,36,False,False,zucchini,12,46,5,Indian,medium,drink
+194,Tomato Egg Scramble,onion,Vegetable,124,False,False,olive_oil,33,41,3,Indian,hard,snack
+194,Tomato Egg Scramble,garlic,Vegetable,78,True,False,,25,8,5,Mediterranean,medium,dinner
+195,Cheese Omelette,egg,Protein,238,False,True,,29,35,3,Indian,hard,lunch
+195,Cheese Omelette,cheese,Dairy,133,True,False,,27,43,5,Mediterranean,hard,lunch
+195,Cheese Omelette,bell_pepper,Vegetable,145,False,True,,8,53,6,Indian,easy,drink
+195,Cheese Omelette,onion,Vegetable,247,True,True,orange,11,57,1,Indian,medium,breakfast
+196,Pasta Primavera,pasta,Grain,35,False,False,,35,14,4,Fusion,hard,breakfast
+196,Pasta Primavera,tomato,Vegetable,125,True,False,,5,8,1,Mediterranean,easy,drink
+196,Pasta Primavera,broccoli,Vegetable,247,False,False,,31,43,2,Indian,medium,lunch
+196,Pasta Primavera,bell_pepper,Vegetable,178,False,False,,33,30,1,Mediterranean,hard,snack
+196,Pasta Primavera,garlic,Vegetable,141,False,False,oats,30,24,1,Mediterranean,medium,drink
+197,Avocado Toast,bread,Grain,170,False,False,,39,41,3,Fusion,medium,lunch
+197,Avocado Toast,avocado,Fruit,103,False,False,,37,32,4,Fusion,medium,lunch
+197,Avocado Toast,lemon,Fruit,158,False,False,,25,6,2,Mediterranean,medium,lunch
+197,Avocado Toast,tomato,Vegetable,156,False,False,,20,60,1,Fusion,medium,lunch
+198,Avocado Toast,bread,Grain,244,False,False,,18,58,2,Indian,easy,lunch
+198,Avocado Toast,avocado,Fruit,127,False,False,,38,23,1,Mediterranean,easy,dinner
+198,Avocado Toast,lemon,Fruit,113,False,False,,42,31,4,Indian,easy,dinner
+198,Avocado Toast,tomato,Vegetable,124,False,False,,40,11,4,International,medium,lunch
+199,Garlic Mushroom Toast,bread,Grain,107,False,False,butter,45,30,1,Indian,medium,lunch
+199,Garlic Mushroom Toast,mushroom,Vegetable,119,True,True,pear,25,34,4,Indian,hard,lunch
+199,Garlic Mushroom Toast,garlic,Vegetable,55,True,True,,22,60,6,Mediterranean,medium,lunch
+199,Garlic Mushroom Toast,butter,Dairy,135,True,False,,12,51,2,Indian,hard,snack
+200,Carrot Lemon Soup,carrot,Vegetable,150,False,False,lentils,16,2,1,Mediterranean,easy,breakfast
+200,Carrot Lemon Soup,lemon,Fruit,195,False,False,,44,22,2,Mediterranean,medium,drink
+200,Carrot Lemon Soup,onion,Vegetable,32,False,False,onion,15,15,3,Fusion,hard,dinner
+200,Carrot Lemon Soup,garlic,Vegetable,182,False,False,pasta,38,19,4,Indian,medium,dinner
+200,Carrot Lemon Soup,potato,Vegetable,179,False,False,,38,54,1,Fusion,medium,dinner
+201,Salmon Rice Bowl,salmon,Protein,56,False,False,,8,50,6,Fusion,medium,dinner
+201,Salmon Rice Bowl,rice,Grain,225,True,False,broccoli,13,20,5,Fusion,medium,dinner
+201,Salmon Rice Bowl,cucumber,Vegetable,162,False,False,bell_pepper,35,5,4,Mediterranean,hard,dinner
+201,Salmon Rice Bowl,avocado,Fruit,79,False,False,tuna,22,1,5,Fusion,hard,snack
+201,Salmon Rice Bowl,lemon,Fruit,148,False,False,,14,32,1,International,medium,snack
+202,Spinach Salad,spinach,Vegetable,48,False,False,,23,50,4,Fusion,easy,drink
+202,Spinach Salad,tomato,Vegetable,157,False,True,,32,7,5,Fusion,medium,dinner
+202,Spinach Salad,cucumber,Vegetable,68,False,False,,29,18,2,Indian,hard,breakfast
+202,Spinach Salad,avocado,Fruit,58,False,True,oats,43,20,3,Fusion,easy,breakfast
+202,Spinach Salad,lemon,Fruit,217,False,True,tofu,28,36,3,Mediterranean,easy,lunch
+203,Fruit Salad,apple,Fruit,173,True,False,,41,42,5,Fusion,easy,snack
+203,Fruit Salad,banana,Fruit,137,False,False,cauliflower,6,56,4,Indian,hard,dinner
+203,Fruit Salad,grape,Fruit,88,False,False,,43,40,2,Mediterranean,easy,drink
+203,Fruit Salad,strawberry,Fruit,226,False,False,,31,47,3,Indian,medium,lunch
+203,Fruit Salad,kiwi,Fruit,134,False,True,,41,3,3,Fusion,hard,dinner
+204,Cheese Omelette,egg,Protein,49,False,False,milk,12,11,3,Fusion,easy,dinner
+204,Cheese Omelette,cheese,Dairy,234,False,False,,20,51,6,Indian,medium,lunch
+204,Cheese Omelette,bell_pepper,Vegetable,114,False,False,cheese,42,29,6,Fusion,easy,snack
+204,Cheese Omelette,onion,Vegetable,231,False,False,,22,16,5,International,medium,dinner
+205,Beef Stew,beef,Protein,89,False,False,,41,20,3,Mediterranean,hard,breakfast
+205,Beef Stew,potato,Vegetable,31,True,False,,33,27,3,Mediterranean,medium,lunch
+205,Beef Stew,carrot,Vegetable,47,False,False,,44,21,5,Mediterranean,easy,snack
+205,Beef Stew,onion,Vegetable,97,True,True,,12,57,2,International,medium,lunch
+205,Beef Stew,garlic,Vegetable,193,False,True,,16,25,5,Mediterranean,hard,dinner
+206,Banana Milkshake,banana,Fruit,121,False,False,,43,6,2,Fusion,medium,drink
+206,Banana Milkshake,milk,Dairy,230,False,True,,30,59,1,Mediterranean,easy,drink
+206,Banana Milkshake,yogurt,Dairy,158,False,True,blueberry,14,21,1,International,medium,snack
+207,Pasta Primavera,pasta,Grain,162,True,False,lettuce,32,40,1,Mediterranean,easy,drink
+207,Pasta Primavera,tomato,Vegetable,161,True,False,,27,17,2,Indian,medium,breakfast
+207,Pasta Primavera,broccoli,Vegetable,186,False,False,,45,55,4,Indian,easy,snack
+207,Pasta Primavera,bell_pepper,Vegetable,170,False,True,,18,21,1,Mediterranean,easy,snack
+207,Pasta Primavera,garlic,Vegetable,146,False,True,,7,29,3,Indian,easy,lunch
+208,Pasta Primavera,pasta,Grain,173,False,False,,31,45,5,Indian,easy,lunch
+208,Pasta Primavera,tomato,Vegetable,77,True,True,cheese,19,43,2,Indian,medium,drink
+208,Pasta Primavera,broccoli,Vegetable,206,False,False,,24,13,1,International,medium,snack
+208,Pasta Primavera,bell_pepper,Vegetable,155,False,False,,23,0,3,International,medium,drink
+208,Pasta Primavera,garlic,Vegetable,55,False,True,,38,29,6,International,medium,breakfast
+209,Zucchini Pasta,pasta,Grain,135,False,False,garlic,10,56,2,Indian,easy,dinner
+209,Zucchini Pasta,zucchini,Vegetable,148,False,False,zucchini,41,7,5,International,easy,lunch
+209,Zucchini Pasta,tomato,Vegetable,239,True,False,,13,38,5,Mediterranean,hard,drink
+209,Zucchini Pasta,garlic,Vegetable,46,False,False,,10,18,3,International,hard,lunch
+209,Zucchini Pasta,cheese,Dairy,86,False,False,mango,25,25,1,International,easy,lunch
+210,Pasta Primavera,pasta,Grain,237,False,False,,24,58,4,Mediterranean,hard,lunch
+210,Pasta Primavera,tomato,Vegetable,156,True,False,,19,29,1,International,hard,dinner
+210,Pasta Primavera,broccoli,Vegetable,211,False,False,,43,29,5,Indian,hard,snack
+210,Pasta Primavera,bell_pepper,Vegetable,159,False,True,,31,57,4,International,hard,lunch
+210,Pasta Primavera,garlic,Vegetable,141,False,False,,43,37,6,Fusion,medium,lunch
+211,Apple Banana Smoothie,apple,Fruit,63,True,False,grape,24,34,1,Indian,medium,snack
+211,Apple Banana Smoothie,banana,Fruit,165,False,True,,42,46,2,International,easy,lunch
+211,Apple Banana Smoothie,milk,Dairy,164,False,False,,23,36,2,International,medium,lunch
+211,Apple Banana Smoothie,yogurt,Dairy,220,False,True,,12,2,3,Indian,medium,snack
+212,Cheese Omelette,egg,Protein,236,False,False,,11,55,1,International,hard,breakfast
+212,Cheese Omelette,cheese,Dairy,231,False,True,strawberry,22,1,2,Mediterranean,hard,snack
+212,Cheese Omelette,bell_pepper,Vegetable,63,True,False,,32,39,1,Fusion,easy,drink
+212,Cheese Omelette,onion,Vegetable,180,True,False,,9,38,5,Indian,easy,breakfast
+213,Chickpea Curry,chickpeas,Legume,67,False,True,butter,25,48,1,Indian,hard,snack
+213,Chickpea Curry,tomato,Vegetable,229,False,True,,26,52,1,Fusion,medium,dinner
+213,Chickpea Curry,onion,Vegetable,128,False,True,,21,14,1,Fusion,easy,lunch
+213,Chickpea Curry,garlic,Vegetable,183,False,True,,43,8,6,International,easy,lunch
+213,Chickpea Curry,spinach,Vegetable,123,False,False,lentils,35,52,2,Mediterranean,easy,dinner
+214,Garlic Mushroom Toast,bread,Grain,143,True,False,,41,6,4,Fusion,easy,snack
+214,Garlic Mushroom Toast,mushroom,Vegetable,202,False,False,,17,0,5,Mediterranean,hard,lunch
+214,Garlic Mushroom Toast,garlic,Vegetable,202,False,True,,38,48,1,Indian,hard,lunch
+214,Garlic Mushroom Toast,butter,Dairy,200,False,False,,5,27,6,Fusion,hard,snack
+215,Broccoli Cheese Soup,broccoli,Vegetable,146,False,False,,35,47,4,Fusion,easy,lunch
+215,Broccoli Cheese Soup,cheese,Dairy,177,True,True,,25,47,3,Mediterranean,medium,dinner
+215,Broccoli Cheese Soup,milk,Dairy,57,False,True,almond,28,39,1,International,hard,lunch
+215,Broccoli Cheese Soup,onion,Vegetable,95,False,True,,13,43,5,International,medium,lunch
+215,Broccoli Cheese Soup,garlic,Vegetable,128,False,False,,17,1,5,Indian,medium,snack
+216,Beef Stew,beef,Protein,110,False,False,tuna,22,1,4,Mediterranean,medium,dinner
+216,Beef Stew,potato,Vegetable,134,False,True,,36,42,5,International,hard,lunch
+216,Beef Stew,carrot,Vegetable,42,True,True,,22,36,6,International,hard,dinner
+216,Beef Stew,onion,Vegetable,236,False,False,,7,30,3,International,hard,drink
+216,Beef Stew,garlic,Vegetable,66,False,True,,42,43,3,Fusion,easy,breakfast
+217,Apple Banana Smoothie,apple,Fruit,46,True,False,,41,59,4,Mediterranean,hard,breakfast
+217,Apple Banana Smoothie,banana,Fruit,87,False,False,,43,24,3,Fusion,easy,lunch
+217,Apple Banana Smoothie,milk,Dairy,243,False,False,,38,38,2,Mediterranean,hard,snack
+217,Apple Banana Smoothie,yogurt,Dairy,179,False,False,,23,32,3,Mediterranean,easy,dinner
+218,Banana Milkshake,banana,Fruit,62,True,False,orange,25,8,6,Mediterranean,easy,dinner
+218,Banana Milkshake,milk,Dairy,206,False,False,,25,29,3,Indian,easy,breakfast
+218,Banana Milkshake,yogurt,Dairy,49,False,False,,9,11,3,Fusion,medium,lunch
+219,Banana Milkshake,banana,Fruit,203,False,False,,7,45,1,International,easy,lunch
+219,Banana Milkshake,milk,Dairy,73,False,False,,8,28,5,Mediterranean,hard,breakfast
+219,Banana Milkshake,yogurt,Dairy,152,False,False,blueberry,13,23,6,Indian,hard,breakfast
+220,Corn Salsa,corn,Vegetable,124,False,False,pear,14,11,2,International,medium,breakfast
+220,Corn Salsa,tomato,Vegetable,53,False,False,tuna,38,33,2,International,easy,drink
+220,Corn Salsa,onion,Vegetable,177,False,True,kiwi,24,35,2,Indian,hard,snack
+220,Corn Salsa,lemon,Fruit,50,False,True,,35,9,4,Fusion,medium,lunch
+220,Corn Salsa,bell_pepper,Vegetable,35,True,False,almond,42,52,3,Fusion,medium,snack
+221,Veggie Stir Fry,broccoli,Vegetable,98,False,True,,8,39,2,Indian,easy,snack
+221,Veggie Stir Fry,carrot,Vegetable,40,True,True,carrot,5,58,2,Indian,medium,drink
+221,Veggie Stir Fry,bell_pepper,Vegetable,103,False,False,,20,16,1,Indian,medium,snack
+221,Veggie Stir Fry,garlic,Vegetable,196,False,False,,28,5,3,Indian,easy,breakfast
+221,Veggie Stir Fry,corn,Vegetable,160,False,True,,40,8,1,Fusion,easy,dinner
+222,Veggie Stir Fry,broccoli,Vegetable,151,False,False,,10,35,6,Indian,hard,dinner
+222,Veggie Stir Fry,carrot,Vegetable,107,False,False,grape,17,9,3,International,medium,dinner
+222,Veggie Stir Fry,bell_pepper,Vegetable,114,False,False,zucchini,16,0,6,Fusion,medium,breakfast
+222,Veggie Stir Fry,garlic,Vegetable,30,False,False,,13,0,5,International,easy,dinner
+222,Veggie Stir Fry,corn,Vegetable,175,False,True,,34,51,1,Mediterranean,easy,breakfast
+223,Chickpea Curry,chickpeas,Legume,210,False,False,,10,45,2,Indian,easy,lunch
+223,Chickpea Curry,tomato,Vegetable,71,False,False,lentils,24,14,2,Mediterranean,hard,dinner
+223,Chickpea Curry,onion,Vegetable,111,False,False,,30,2,2,Mediterranean,medium,dinner
+223,Chickpea Curry,garlic,Vegetable,55,False,True,,37,10,3,Fusion,hard,snack
+223,Chickpea Curry,spinach,Vegetable,77,False,False,,45,31,2,Fusion,hard,drink
+224,Garlic Mushroom Toast,bread,Grain,97,False,False,,8,38,5,Mediterranean,hard,breakfast
+224,Garlic Mushroom Toast,mushroom,Vegetable,233,False,True,,5,22,1,Fusion,hard,breakfast
+224,Garlic Mushroom Toast,garlic,Vegetable,219,False,False,butter,9,26,3,International,hard,dinner
+224,Garlic Mushroom Toast,butter,Dairy,177,False,False,,9,49,3,International,hard,lunch
+225,Berry Smoothie Bowl,strawberry,Fruit,212,False,False,,20,17,2,Fusion,hard,drink
+225,Berry Smoothie Bowl,banana,Fruit,114,True,True,,15,45,6,Indian,easy,snack
+225,Berry Smoothie Bowl,blueberry,Fruit,97,False,False,bread,25,28,6,Mediterranean,hard,drink
+225,Berry Smoothie Bowl,yogurt,Dairy,84,False,False,lentils,44,41,4,Fusion,hard,lunch
+226,Mushroom Omelette,egg,Protein,180,False,False,,41,36,4,Indian,easy,lunch
+226,Mushroom Omelette,mushroom,Vegetable,211,False,False,,8,2,3,Fusion,medium,snack
+226,Mushroom Omelette,onion,Vegetable,101,False,False,,44,17,3,International,hard,drink
+226,Mushroom Omelette,cheese,Dairy,75,False,True,,17,9,3,Fusion,easy,lunch
+227,Chickpea Curry,chickpeas,Legume,131,False,False,,35,41,5,International,medium,lunch
+227,Chickpea Curry,tomato,Vegetable,185,False,True,tuna,6,35,4,Mediterranean,easy,lunch
+227,Chickpea Curry,onion,Vegetable,63,False,True,,8,7,6,International,medium,breakfast
+227,Chickpea Curry,garlic,Vegetable,105,False,True,,24,57,1,Mediterranean,medium,breakfast
+227,Chickpea Curry,spinach,Vegetable,200,False,False,cheese,35,30,5,International,hard,snack
+228,Pasta Primavera,pasta,Grain,35,False,False,blueberry,7,42,5,Mediterranean,medium,dinner
+228,Pasta Primavera,tomato,Vegetable,156,False,False,,42,43,3,International,easy,breakfast
+228,Pasta Primavera,broccoli,Vegetable,233,True,False,,25,15,6,Fusion,medium,lunch
+228,Pasta Primavera,bell_pepper,Vegetable,61,False,False,rice,27,48,1,International,easy,breakfast
+228,Pasta Primavera,garlic,Vegetable,223,False,True,,44,55,2,International,easy,dinner
+229,Apple Banana Smoothie,apple,Fruit,210,False,False,,23,40,1,Mediterranean,medium,drink
+229,Apple Banana Smoothie,banana,Fruit,80,False,True,lemon,20,54,2,Fusion,hard,lunch
+229,Apple Banana Smoothie,milk,Dairy,160,False,False,,13,36,1,International,easy,lunch
+229,Apple Banana Smoothie,yogurt,Dairy,68,False,False,,42,11,1,Indian,medium,dinner
+230,Mushroom Omelette,egg,Protein,222,True,True,bread,37,23,3,Indian,easy,drink
+230,Mushroom Omelette,mushroom,Vegetable,178,False,False,pineapple,38,43,1,Fusion,hard,lunch
+230,Mushroom Omelette,onion,Vegetable,235,False,False,,6,50,6,Fusion,medium,lunch
+230,Mushroom Omelette,cheese,Dairy,244,False,False,almond,11,35,5,Fusion,hard,lunch
+231,Pineapple Fried Rice,rice,Grain,149,False,True,,21,40,1,Fusion,hard,lunch
+231,Pineapple Fried Rice,pineapple,Fruit,239,False,True,bread,20,12,6,Fusion,easy,snack
+231,Pineapple Fried Rice,egg,Protein,177,False,False,,20,13,6,Indian,easy,dinner
+231,Pineapple Fried Rice,onion,Vegetable,98,False,True,,35,34,1,Mediterranean,medium,dinner
+231,Pineapple Fried Rice,carrot,Vegetable,222,False,False,,31,51,4,Mediterranean,hard,drink
+232,Cheese Omelette,egg,Protein,131,False,False,,12,9,4,Indian,hard,breakfast
+232,Cheese Omelette,cheese,Dairy,56,False,True,avocado,36,0,6,Fusion,medium,dinner
+232,Cheese Omelette,bell_pepper,Vegetable,121,False,False,,45,5,3,International,easy,drink
+232,Cheese Omelette,onion,Vegetable,137,True,False,lettuce,12,14,6,International,easy,dinner
+233,Cauliflower Rice,cauliflower,Vegetable,161,True,False,apple,11,42,1,Indian,medium,breakfast
+233,Cauliflower Rice,garlic,Vegetable,199,False,False,cream,11,26,3,Fusion,hard,breakfast
+233,Cauliflower Rice,onion,Vegetable,196,False,True,,30,44,2,Fusion,medium,breakfast
+233,Cauliflower Rice,egg,Protein,178,False,True,lentils,22,22,3,Mediterranean,medium,drink
+234,Cheese Omelette,egg,Protein,104,False,False,,25,59,5,Fusion,medium,drink
+234,Cheese Omelette,cheese,Dairy,157,True,True,oats,10,24,1,Indian,easy,snack
+234,Cheese Omelette,bell_pepper,Vegetable,162,False,False,,36,27,6,Indian,hard,lunch
+234,Cheese Omelette,onion,Vegetable,42,True,False,,33,28,3,Fusion,medium,snack
+235,Peach Yogurt Parfait,peach,Fruit,249,False,True,,43,12,4,Mediterranean,medium,breakfast
+235,Peach Yogurt Parfait,yogurt,Dairy,53,False,False,pear,13,38,2,Mediterranean,easy,drink
+235,Peach Yogurt Parfait,oats,Grain,196,True,False,,34,21,5,International,hard,snack
+235,Peach Yogurt Parfait,almond,Nut,192,True,False,watermelon,25,33,6,Mediterranean,easy,breakfast
+236,Banana Milkshake,banana,Fruit,48,False,False,,21,30,6,Mediterranean,hard,drink
+236,Banana Milkshake,milk,Dairy,116,False,False,,21,58,3,International,hard,lunch
+236,Banana Milkshake,yogurt,Dairy,100,True,True,peas,24,52,4,International,hard,drink
+237,Avocado Toast,bread,Grain,42,False,False,,5,25,3,Mediterranean,medium,breakfast
+237,Avocado Toast,avocado,Fruit,212,False,False,cucumber,5,7,6,Mediterranean,easy,dinner
+237,Avocado Toast,lemon,Fruit,123,False,True,,37,54,4,Indian,easy,lunch
+237,Avocado Toast,tomato,Vegetable,152,False,True,,20,23,4,Mediterranean,hard,dinner
+238,Salmon Rice Bowl,salmon,Protein,94,False,False,tuna,42,41,5,Indian,hard,dinner
+238,Salmon Rice Bowl,rice,Grain,102,False,False,,21,56,6,Indian,medium,drink
+238,Salmon Rice Bowl,cucumber,Vegetable,138,False,False,,44,25,1,Fusion,easy,snack
+238,Salmon Rice Bowl,avocado,Fruit,33,True,True,kiwi,28,47,5,International,medium,breakfast
+238,Salmon Rice Bowl,lemon,Fruit,30,True,False,,33,40,4,Indian,easy,dinner
+239,Cauliflower Rice,cauliflower,Vegetable,123,False,True,,34,40,2,Fusion,easy,dinner
+239,Cauliflower Rice,garlic,Vegetable,69,False,False,orange,14,34,1,International,easy,breakfast
+239,Cauliflower Rice,onion,Vegetable,185,False,True,,8,7,5,Indian,hard,snack
+239,Cauliflower Rice,egg,Protein,210,False,True,,11,56,2,Mediterranean,easy,breakfast
+240,Almond Smoothie,almond,Nut,71,False,False,,33,17,3,Mediterranean,easy,drink
+240,Almond Smoothie,banana,Fruit,175,False,False,banana,29,9,3,Mediterranean,hard,lunch
+240,Almond Smoothie,milk,Dairy,200,False,False,,14,22,2,Mediterranean,medium,dinner
+240,Almond Smoothie,oats,Grain,68,False,False,,23,54,5,Indian,easy,breakfast
+241,Cheese Omelette,egg,Protein,120,True,False,watermelon,43,21,6,Fusion,medium,snack
+241,Cheese Omelette,cheese,Dairy,68,False,True,,23,19,1,Fusion,hard,breakfast
+241,Cheese Omelette,bell_pepper,Vegetable,143,True,False,cherry,27,4,3,Mediterranean,easy,dinner
+241,Cheese Omelette,onion,Vegetable,104,False,False,,39,44,6,Fusion,medium,snack
+242,Salmon Rice Bowl,salmon,Protein,75,True,False,,23,49,5,Mediterranean,medium,lunch
+242,Salmon Rice Bowl,rice,Grain,146,True,False,salmon,35,25,1,Mediterranean,medium,lunch
+242,Salmon Rice Bowl,cucumber,Vegetable,65,False,False,,35,10,6,International,medium,dinner
+242,Salmon Rice Bowl,avocado,Fruit,60,False,False,,26,1,1,International,hard,drink
+242,Salmon Rice Bowl,lemon,Fruit,175,False,False,mango,8,10,4,International,hard,breakfast
+243,Apple Banana Smoothie,apple,Fruit,200,False,True,,33,46,2,Fusion,hard,drink
+243,Apple Banana Smoothie,banana,Fruit,93,False,False,,32,43,1,Mediterranean,hard,snack
+243,Apple Banana Smoothie,milk,Dairy,243,False,True,,34,11,5,Mediterranean,easy,lunch
+243,Apple Banana Smoothie,yogurt,Dairy,96,False,False,,45,32,6,International,hard,breakfast
+244,Cheese Omelette,egg,Protein,94,False,False,,23,40,2,Mediterranean,medium,lunch
+244,Cheese Omelette,cheese,Dairy,68,False,False,,37,14,1,Fusion,hard,lunch
+244,Cheese Omelette,bell_pepper,Vegetable,56,False,True,cherry,20,10,1,International,hard,breakfast
+244,Cheese Omelette,onion,Vegetable,47,False,True,,45,32,2,International,medium,snack
+245,Cheese Omelette,egg,Protein,93,False,True,,23,12,4,Indian,medium,snack
+245,Cheese Omelette,cheese,Dairy,238,False,True,,39,9,2,Fusion,medium,lunch
+245,Cheese Omelette,bell_pepper,Vegetable,48,False,False,,45,16,3,Fusion,hard,snack
+245,Cheese Omelette,onion,Vegetable,183,True,False,corn,17,60,3,Mediterranean,easy,snack
+246,Tuna Salad,tuna,Protein,194,False,True,,34,5,1,Mediterranean,hard,snack
+246,Tuna Salad,lettuce,Vegetable,123,False,False,,8,9,2,Fusion,medium,dinner
+246,Tuna Salad,tomato,Vegetable,229,True,False,,12,53,3,International,easy,breakfast
+246,Tuna Salad,cucumber,Vegetable,111,False,False,,10,12,4,Indian,hard,lunch
+246,Tuna Salad,lemon,Fruit,211,False,False,,36,44,5,International,easy,drink
+247,Tomato Egg Scramble,tomato,Vegetable,45,False,False,zucchini,39,55,3,Fusion,hard,drink
+247,Tomato Egg Scramble,egg,Protein,51,False,True,,14,7,4,Mediterranean,hard,snack
+247,Tomato Egg Scramble,onion,Vegetable,234,True,False,,20,16,4,Mediterranean,easy,snack
+247,Tomato Egg Scramble,garlic,Vegetable,100,False,True,,26,41,6,Indian,easy,drink
+248,Salmon Rice Bowl,salmon,Protein,35,False,True,,44,0,6,Mediterranean,hard,snack
+248,Salmon Rice Bowl,rice,Grain,47,False,True,,21,1,6,Mediterranean,medium,snack
+248,Salmon Rice Bowl,cucumber,Vegetable,35,False,False,,7,32,2,Mediterranean,easy,snack
+248,Salmon Rice Bowl,avocado,Fruit,106,False,False,,13,42,3,Indian,hard,snack
+248,Salmon Rice Bowl,lemon,Fruit,96,False,True,,41,47,2,International,hard,dinner
+249,Beef Stew,beef,Protein,88,True,False,,41,28,1,Mediterranean,easy,drink
+249,Beef Stew,potato,Vegetable,180,True,False,cauliflower,9,16,3,Indian,easy,dinner
+249,Beef Stew,carrot,Vegetable,75,False,False,,30,28,2,Indian,hard,breakfast
+249,Beef Stew,onion,Vegetable,226,True,False,,16,28,5,Indian,hard,lunch
+249,Beef Stew,garlic,Vegetable,136,True,True,,37,58,6,Fusion,medium,drink
+250,Pineapple Fried Rice,rice,Grain,51,True,False,egg,12,3,1,International,easy,dinner
+250,Pineapple Fried Rice,pineapple,Fruit,193,False,False,bread,35,19,6,International,easy,breakfast
+250,Pineapple Fried Rice,egg,Protein,140,False,False,garlic,35,49,5,Indian,easy,snack
+250,Pineapple Fried Rice,onion,Vegetable,243,False,False,,43,21,2,Mediterranean,hard,lunch
+250,Pineapple Fried Rice,carrot,Vegetable,168,True,False,,29,42,5,International,medium,drink
+251,Veggie Stir Fry,broccoli,Vegetable,156,False,False,,44,31,1,International,easy,breakfast
+251,Veggie Stir Fry,carrot,Vegetable,204,False,False,grape,39,18,2,Fusion,hard,lunch
+251,Veggie Stir Fry,bell_pepper,Vegetable,53,False,True,tofu,39,55,6,International,hard,drink
+251,Veggie Stir Fry,garlic,Vegetable,221,False,False,lettuce,34,2,6,Fusion,medium,lunch
+251,Veggie Stir Fry,corn,Vegetable,83,False,True,,27,41,3,International,easy,dinner
+252,Pasta Primavera,pasta,Grain,211,False,False,cauliflower,37,41,6,Indian,easy,dinner
+252,Pasta Primavera,tomato,Vegetable,215,False,False,,43,45,3,Indian,hard,drink
+252,Pasta Primavera,broccoli,Vegetable,206,False,False,,15,15,2,Mediterranean,hard,lunch
+252,Pasta Primavera,bell_pepper,Vegetable,125,True,False,,37,23,1,Fusion,easy,dinner
+252,Pasta Primavera,garlic,Vegetable,190,False,False,,42,18,1,Fusion,medium,breakfast
+253,Zucchini Pasta,pasta,Grain,187,False,True,cucumber,31,12,4,Indian,easy,drink
+253,Zucchini Pasta,zucchini,Vegetable,154,False,False,apple,5,25,2,Fusion,easy,drink
+253,Zucchini Pasta,tomato,Vegetable,137,False,True,,42,60,5,International,medium,lunch
+253,Zucchini Pasta,garlic,Vegetable,205,False,True,,12,34,1,Fusion,medium,drink
+253,Zucchini Pasta,cheese,Dairy,149,False,False,,17,29,5,Fusion,easy,snack
+254,Almond Smoothie,almond,Nut,174,False,False,,34,23,3,International,easy,breakfast
+254,Almond Smoothie,banana,Fruit,229,False,True,,45,56,1,Indian,easy,lunch
+254,Almond Smoothie,milk,Dairy,72,False,False,,12,45,2,Fusion,hard,lunch
+254,Almond Smoothie,oats,Grain,101,True,False,,14,8,1,International,easy,dinner
+255,Veggie Stir Fry,broccoli,Vegetable,56,True,False,,43,34,5,Fusion,easy,snack
+255,Veggie Stir Fry,carrot,Vegetable,134,False,False,,19,21,4,Indian,hard,dinner
+255,Veggie Stir Fry,bell_pepper,Vegetable,44,True,False,,27,8,6,Mediterranean,easy,snack
+255,Veggie Stir Fry,garlic,Vegetable,167,False,False,,24,16,4,Indian,medium,dinner
+255,Veggie Stir Fry,corn,Vegetable,183,False,False,salmon,44,16,6,Mediterranean,medium,lunch
+256,Beef Stew,beef,Protein,60,False,True,,23,5,6,Mediterranean,medium,drink
+256,Beef Stew,potato,Vegetable,148,True,False,,44,22,1,Mediterranean,easy,dinner
+256,Beef Stew,carrot,Vegetable,106,True,False,,32,28,5,Fusion,easy,breakfast
+256,Beef Stew,onion,Vegetable,100,False,False,,27,41,5,Indian,hard,snack
+256,Beef Stew,garlic,Vegetable,92,False,False,,18,12,3,Indian,hard,dinner
+257,Veggie Stir Fry,broccoli,Vegetable,59,True,False,,11,24,2,Mediterranean,hard,drink
+257,Veggie Stir Fry,carrot,Vegetable,165,False,False,mushroom,31,0,3,International,easy,breakfast
+257,Veggie Stir Fry,bell_pepper,Vegetable,177,False,True,,30,13,6,International,medium,snack
+257,Veggie Stir Fry,garlic,Vegetable,183,True,False,,30,5,6,Mediterranean,hard,snack
+257,Veggie Stir Fry,corn,Vegetable,232,False,True,,12,1,2,Indian,hard,snack
+258,Walnut Oatmeal,oats,Grain,109,True,False,,19,53,4,Fusion,hard,breakfast
+258,Walnut Oatmeal,walnut,Nut,40,False,False,,9,39,1,Fusion,medium,drink
+258,Walnut Oatmeal,banana,Fruit,249,False,False,blueberry,16,1,5,Mediterranean,medium,lunch
+258,Walnut Oatmeal,milk,Dairy,236,True,False,,29,3,2,Fusion,medium,lunch
+259,Banana Milkshake,banana,Fruit,242,False,True,,45,24,5,Indian,hard,drink
+259,Banana Milkshake,milk,Dairy,142,True,False,yogurt,28,23,4,Mediterranean,hard,snack
+259,Banana Milkshake,yogurt,Dairy,98,False,True,,38,23,2,International,hard,snack
+260,Veggie Stir Fry,broccoli,Vegetable,183,False,False,,5,24,3,Mediterranean,medium,drink
+260,Veggie Stir Fry,carrot,Vegetable,70,False,False,,32,30,2,International,medium,breakfast
+260,Veggie Stir Fry,bell_pepper,Vegetable,239,False,False,,44,29,5,Mediterranean,hard,breakfast
+260,Veggie Stir Fry,garlic,Vegetable,97,False,False,,43,10,3,Mediterranean,medium,lunch
+260,Veggie Stir Fry,corn,Vegetable,207,False,False,,12,40,3,Mediterranean,easy,snack
+261,Salmon Rice Bowl,salmon,Protein,73,False,False,,39,36,2,Fusion,medium,snack
+261,Salmon Rice Bowl,rice,Grain,232,False,False,,9,16,4,Fusion,hard,drink
+261,Salmon Rice Bowl,cucumber,Vegetable,159,False,True,,43,59,5,Fusion,easy,lunch
+261,Salmon Rice Bowl,avocado,Fruit,56,False,False,rice,28,43,2,Indian,medium,drink
+261,Salmon Rice Bowl,lemon,Fruit,214,False,False,,39,13,2,Indian,medium,snack
+262,Tomato Egg Scramble,tomato,Vegetable,184,True,True,,10,32,6,Mediterranean,hard,snack
+262,Tomato Egg Scramble,egg,Protein,220,False,False,,35,6,4,Fusion,hard,lunch
+262,Tomato Egg Scramble,onion,Vegetable,106,False,False,,27,33,4,Indian,easy,drink
+262,Tomato Egg Scramble,garlic,Vegetable,88,False,False,,42,23,1,Indian,medium,dinner
+263,Pineapple Fried Rice,rice,Grain,46,False,False,almond,32,2,2,Indian,medium,drink
+263,Pineapple Fried Rice,pineapple,Fruit,162,False,False,broccoli,38,25,1,Fusion,hard,snack
+263,Pineapple Fried Rice,egg,Protein,111,False,False,,17,18,1,Fusion,hard,snack
+263,Pineapple Fried Rice,onion,Vegetable,184,False,True,,9,12,4,Indian,medium,drink
+263,Pineapple Fried Rice,carrot,Vegetable,150,True,False,grape,10,17,1,Indian,hard,lunch
+264,Almond Smoothie,almond,Nut,129,False,False,potato,38,10,6,Indian,medium,drink
+264,Almond Smoothie,banana,Fruit,142,False,True,,30,31,1,Fusion,medium,dinner
+264,Almond Smoothie,milk,Dairy,73,True,True,strawberry,5,2,1,International,medium,breakfast
+264,Almond Smoothie,oats,Grain,206,False,True,tuna,43,0,4,Mediterranean,easy,drink
+265,Berry Smoothie Bowl,strawberry,Fruit,179,True,False,peas,45,54,4,International,hard,dinner
+265,Berry Smoothie Bowl,banana,Fruit,119,False,False,,21,49,1,Mediterranean,hard,dinner
+265,Berry Smoothie Bowl,blueberry,Fruit,235,True,False,,13,0,2,Indian,easy,drink
+265,Berry Smoothie Bowl,yogurt,Dairy,194,False,False,peas,21,60,6,International,medium,drink
+266,French Toast,bread,Grain,68,False,False,,37,50,2,Mediterranean,easy,breakfast
+266,French Toast,egg,Protein,230,False,False,,24,5,6,Mediterranean,medium,lunch
+266,French Toast,milk,Dairy,59,False,False,,24,43,6,Fusion,medium,breakfast
+266,French Toast,butter,Dairy,139,False,False,,31,46,1,Mediterranean,hard,dinner
+267,Chickpea Curry,chickpeas,Legume,171,False,False,,39,54,1,Fusion,hard,breakfast
+267,Chickpea Curry,tomato,Vegetable,123,False,True,spinach,26,55,4,Indian,easy,dinner
+267,Chickpea Curry,onion,Vegetable,202,True,True,,19,29,3,Indian,easy,lunch
+267,Chickpea Curry,garlic,Vegetable,164,False,False,walnut,38,33,2,Fusion,medium,snack
+267,Chickpea Curry,spinach,Vegetable,39,True,True,,44,39,6,Fusion,hard,dinner
+268,Cheese Omelette,egg,Protein,118,False,False,garlic,20,28,1,Fusion,easy,breakfast
+268,Cheese Omelette,cheese,Dairy,243,False,False,,42,57,3,Fusion,medium,breakfast
+268,Cheese Omelette,bell_pepper,Vegetable,170,False,False,,40,38,2,International,easy,dinner
+268,Cheese Omelette,onion,Vegetable,234,False,False,,32,12,1,International,hard,snack
+269,Banana Milkshake,banana,Fruit,65,False,False,,37,14,2,Fusion,easy,dinner
+269,Banana Milkshake,milk,Dairy,239,False,True,potato,19,38,5,Mediterranean,medium,drink
+269,Banana Milkshake,yogurt,Dairy,86,False,True,,36,0,4,Fusion,medium,dinner
+270,Lentil Soup,lentils,Legume,78,False,False,rice,22,1,5,Indian,medium,breakfast
+270,Lentil Soup,carrot,Vegetable,228,False,False,,36,54,3,International,hard,lunch
+270,Lentil Soup,onion,Vegetable,139,False,True,onion,42,33,4,Mediterranean,hard,breakfast
+270,Lentil Soup,garlic,Vegetable,149,False,False,onion,12,44,2,Indian,medium,snack
+270,Lentil Soup,tomato,Vegetable,179,False,False,,18,40,5,Mediterranean,hard,lunch
+271,Green Smoothie,spinach,Vegetable,121,False,True,,20,41,4,International,hard,dinner
+271,Green Smoothie,banana,Fruit,221,False,True,,42,34,1,Indian,hard,dinner
+271,Green Smoothie,apple,Fruit,245,False,False,,19,57,5,Mediterranean,hard,drink
+271,Green Smoothie,lemon,Fruit,37,False,False,,11,7,3,International,medium,snack
+272,Garlic Mushroom Toast,bread,Grain,49,False,False,,6,41,1,Indian,easy,breakfast
+272,Garlic Mushroom Toast,mushroom,Vegetable,43,False,False,,35,20,1,Mediterranean,hard,lunch
+272,Garlic Mushroom Toast,garlic,Vegetable,165,False,True,,40,31,6,International,medium,breakfast
+272,Garlic Mushroom Toast,butter,Dairy,213,False,False,,24,46,6,Fusion,hard,dinner
+273,Spinach Salad,spinach,Vegetable,169,False,False,corn,45,6,4,International,medium,breakfast
+273,Spinach Salad,tomato,Vegetable,51,False,True,,36,49,2,Indian,medium,lunch
+273,Spinach Salad,cucumber,Vegetable,205,False,False,,29,27,5,Fusion,medium,drink
+273,Spinach Salad,avocado,Fruit,156,False,False,cherry,17,59,2,International,easy,snack
+273,Spinach Salad,lemon,Fruit,247,False,False,,34,10,4,Fusion,easy,dinner
+274,Garlic Mushroom Toast,bread,Grain,160,False,False,olive_oil,13,32,4,Fusion,hard,lunch
+274,Garlic Mushroom Toast,mushroom,Vegetable,226,False,False,bell_pepper,6,10,3,Indian,hard,breakfast
+274,Garlic Mushroom Toast,garlic,Vegetable,120,True,False,,23,22,1,International,medium,lunch
+274,Garlic Mushroom Toast,butter,Dairy,125,True,True,,29,58,5,International,medium,lunch
+275,Salmon Rice Bowl,salmon,Protein,47,False,True,,10,33,5,International,hard,lunch
+275,Salmon Rice Bowl,rice,Grain,205,False,True,kiwi,32,48,6,Indian,easy,drink
+275,Salmon Rice Bowl,cucumber,Vegetable,178,False,True,kiwi,42,43,5,Mediterranean,hard,dinner
+275,Salmon Rice Bowl,avocado,Fruit,203,False,False,,15,9,4,Mediterranean,hard,breakfast
+275,Salmon Rice Bowl,lemon,Fruit,250,False,False,,5,60,4,Mediterranean,medium,dinner
+276,Mango Lassi,mango,Fruit,201,True,True,,36,31,1,International,hard,dinner
+276,Mango Lassi,yogurt,Dairy,202,False,True,tomato,10,11,5,Fusion,easy,breakfast
+276,Mango Lassi,milk,Dairy,160,False,False,,5,22,3,International,easy,breakfast
+277,Zucchini Pasta,pasta,Grain,55,False,False,olive_oil,33,17,5,Fusion,medium,snack
+277,Zucchini Pasta,zucchini,Vegetable,210,False,False,,6,23,4,Fusion,hard,breakfast
+277,Zucchini Pasta,tomato,Vegetable,175,False,True,,37,9,6,Fusion,hard,breakfast
+277,Zucchini Pasta,garlic,Vegetable,167,False,False,garlic,24,50,5,Fusion,medium,dinner
+277,Zucchini Pasta,cheese,Dairy,250,False,True,garlic,18,16,2,Fusion,medium,lunch
+278,Carrot Lemon Soup,carrot,Vegetable,224,False,True,blueberry,31,0,2,Mediterranean,hard,dinner
+278,Carrot Lemon Soup,lemon,Fruit,228,False,False,,32,44,6,Mediterranean,hard,lunch
+278,Carrot Lemon Soup,onion,Vegetable,83,False,True,egg,43,29,4,Indian,easy,breakfast
+278,Carrot Lemon Soup,garlic,Vegetable,205,False,False,,17,2,2,Mediterranean,medium,dinner
+278,Carrot Lemon Soup,potato,Vegetable,92,False,False,,40,53,5,Fusion,medium,drink
+279,Zucchini Pasta,pasta,Grain,57,False,True,corn,40,34,2,International,hard,dinner
+279,Zucchini Pasta,zucchini,Vegetable,118,True,False,pasta,42,15,3,Mediterranean,medium,snack
+279,Zucchini Pasta,tomato,Vegetable,90,True,False,,21,34,6,Indian,hard,breakfast
+279,Zucchini Pasta,garlic,Vegetable,74,False,False,cheese,22,27,1,Indian,easy,breakfast
+279,Zucchini Pasta,cheese,Dairy,52,False,False,,20,60,6,Indian,hard,breakfast
+280,Apple Banana Smoothie,apple,Fruit,217,False,False,,26,29,6,International,hard,lunch
+280,Apple Banana Smoothie,banana,Fruit,243,False,True,banana,11,50,3,Mediterranean,medium,snack
+280,Apple Banana Smoothie,milk,Dairy,179,False,True,orange,26,39,1,Indian,easy,dinner
+280,Apple Banana Smoothie,yogurt,Dairy,111,False,False,,11,29,6,International,hard,breakfast
+281,Green Smoothie,spinach,Vegetable,78,False,True,,9,12,5,Mediterranean,medium,breakfast
+281,Green Smoothie,banana,Fruit,174,False,False,,11,30,2,Fusion,hard,dinner
+281,Green Smoothie,apple,Fruit,200,False,False,milk,35,28,2,Indian,medium,snack
+281,Green Smoothie,lemon,Fruit,103,True,False,,16,20,5,Fusion,easy,dinner
+282,Lentil Soup,lentils,Legume,98,False,False,almond,6,32,5,International,medium,lunch
+282,Lentil Soup,carrot,Vegetable,112,False,False,,30,46,5,International,medium,dinner
+282,Lentil Soup,onion,Vegetable,34,True,False,oats,7,58,2,Mediterranean,easy,lunch
+282,Lentil Soup,garlic,Vegetable,131,False,False,,35,25,1,Indian,medium,lunch
+282,Lentil Soup,tomato,Vegetable,238,False,True,,27,19,2,Fusion,medium,snack
+283,Banana Milkshake,banana,Fruit,172,False,True,,32,52,6,Indian,medium,dinner
+283,Banana Milkshake,milk,Dairy,166,False,False,yogurt,38,12,5,Mediterranean,hard,drink
+283,Banana Milkshake,yogurt,Dairy,223,False,False,,30,57,4,Fusion,hard,breakfast
+284,Pasta Primavera,pasta,Grain,107,False,True,,16,45,2,Indian,easy,dinner
+284,Pasta Primavera,tomato,Vegetable,192,False,False,,12,48,3,International,medium,dinner
+284,Pasta Primavera,broccoli,Vegetable,62,False,False,,28,50,5,Mediterranean,medium,dinner
+284,Pasta Primavera,bell_pepper,Vegetable,114,False,False,,18,29,6,International,easy,dinner
+284,Pasta Primavera,garlic,Vegetable,59,False,False,tofu,22,10,3,Indian,hard,dinner
+285,Almond Smoothie,almond,Nut,34,False,False,potato,6,25,4,Indian,hard,snack
+285,Almond Smoothie,banana,Fruit,132,False,True,,13,35,2,International,hard,breakfast
+285,Almond Smoothie,milk,Dairy,37,False,True,butter,25,9,5,International,medium,snack
+285,Almond Smoothie,oats,Grain,36,False,False,,36,10,1,International,medium,snack
+286,Zucchini Pasta,pasta,Grain,245,True,False,,12,30,3,International,medium,lunch
+286,Zucchini Pasta,zucchini,Vegetable,185,False,False,,7,14,4,Indian,hard,dinner
+286,Zucchini Pasta,tomato,Vegetable,91,False,False,beef,37,41,2,International,medium,drink
+286,Zucchini Pasta,garlic,Vegetable,48,False,False,,18,0,1,International,easy,dinner
+286,Zucchini Pasta,cheese,Dairy,127,False,True,,30,35,5,Mediterranean,medium,drink
+287,Carrot Lemon Soup,carrot,Vegetable,198,False,False,,39,47,2,International,easy,drink
+287,Carrot Lemon Soup,lemon,Fruit,242,False,False,almond,13,58,1,Fusion,hard,snack
+287,Carrot Lemon Soup,onion,Vegetable,91,False,False,,5,34,2,Mediterranean,easy,snack
+287,Carrot Lemon Soup,garlic,Vegetable,209,False,False,,35,14,1,Indian,easy,drink
+287,Carrot Lemon Soup,potato,Vegetable,159,False,True,pineapple,31,6,1,International,easy,snack
+288,Cheese Omelette,egg,Protein,172,False,False,,35,50,6,Indian,easy,dinner
+288,Cheese Omelette,cheese,Dairy,169,False,False,,35,6,5,Mediterranean,medium,lunch
+288,Cheese Omelette,bell_pepper,Vegetable,194,False,True,,15,42,4,Mediterranean,hard,drink
+288,Cheese Omelette,onion,Vegetable,41,False,True,,18,36,6,Mediterranean,medium,snack
+289,Cheese Omelette,egg,Protein,177,True,True,,23,4,2,International,hard,drink
+289,Cheese Omelette,cheese,Dairy,204,True,False,,29,31,2,Fusion,easy,drink
+289,Cheese Omelette,bell_pepper,Vegetable,74,True,False,,22,31,6,International,easy,breakfast
+289,Cheese Omelette,onion,Vegetable,181,True,False,zucchini,22,32,5,International,medium,breakfast
+290,Pineapple Fried Rice,rice,Grain,170,False,False,peas,34,9,1,Mediterranean,hard,breakfast
+290,Pineapple Fried Rice,pineapple,Fruit,236,False,True,milk,19,46,3,International,medium,lunch
+290,Pineapple Fried Rice,egg,Protein,74,True,False,,5,39,1,Indian,medium,breakfast
+290,Pineapple Fried Rice,onion,Vegetable,148,False,False,,42,32,4,International,easy,breakfast
+290,Pineapple Fried Rice,carrot,Vegetable,134,False,False,broccoli,20,40,5,Fusion,easy,dinner
+291,Cheese Omelette,egg,Protein,93,False,False,,8,55,2,Indian,easy,snack
+291,Cheese Omelette,cheese,Dairy,213,False,False,watermelon,34,16,4,Mediterranean,easy,lunch
+291,Cheese Omelette,bell_pepper,Vegetable,201,False,False,,45,26,3,Mediterranean,hard,drink
+291,Cheese Omelette,onion,Vegetable,198,False,True,,26,51,6,Indian,easy,lunch
+292,Lentil Soup,lentils,Legume,34,False,False,,11,20,6,International,medium,snack
+292,Lentil Soup,carrot,Vegetable,119,True,False,strawberry,34,52,3,Fusion,medium,drink
+292,Lentil Soup,onion,Vegetable,200,False,True,,44,41,4,International,easy,lunch
+292,Lentil Soup,garlic,Vegetable,180,False,True,chickpeas,45,21,6,Mediterranean,medium,lunch
+292,Lentil Soup,tomato,Vegetable,196,False,True,beef,36,4,2,International,medium,lunch
+293,Berry Smoothie Bowl,strawberry,Fruit,141,True,True,,34,41,1,Mediterranean,easy,drink
+293,Berry Smoothie Bowl,banana,Fruit,159,False,False,,10,35,4,Indian,medium,snack
+293,Berry Smoothie Bowl,blueberry,Fruit,197,False,False,rice,10,3,3,Fusion,medium,snack
+293,Berry Smoothie Bowl,yogurt,Dairy,225,False,True,,22,8,1,Mediterranean,hard,dinner
+294,Cheese Omelette,egg,Protein,192,False,False,,9,12,4,Fusion,medium,dinner
+294,Cheese Omelette,cheese,Dairy,172,False,False,,12,16,2,Mediterranean,medium,drink
+294,Cheese Omelette,bell_pepper,Vegetable,177,False,False,cauliflower,25,57,5,Indian,hard,drink
+294,Cheese Omelette,onion,Vegetable,190,False,False,,8,55,2,Fusion,easy,drink
+295,Tuna Salad,tuna,Protein,73,False,False,,15,48,3,International,easy,dinner
+295,Tuna Salad,lettuce,Vegetable,104,True,False,,5,10,2,Indian,easy,lunch
+295,Tuna Salad,tomato,Vegetable,174,True,False,,41,59,2,International,hard,drink
+295,Tuna Salad,cucumber,Vegetable,78,False,False,,44,55,4,International,medium,lunch
+295,Tuna Salad,lemon,Fruit,91,True,True,,8,57,1,International,easy,lunch
+296,Tuna Salad,tuna,Protein,207,False,True,strawberry,29,53,2,International,medium,breakfast
+296,Tuna Salad,lettuce,Vegetable,153,False,False,,6,25,3,International,medium,snack
+296,Tuna Salad,tomato,Vegetable,206,False,True,,15,37,1,International,medium,snack
+296,Tuna Salad,cucumber,Vegetable,179,False,False,,22,57,3,Indian,hard,drink
+296,Tuna Salad,lemon,Fruit,77,True,False,olive_oil,32,46,5,International,medium,drink
+297,Cheese Omelette,egg,Protein,239,False,False,,26,13,5,International,hard,snack
+297,Cheese Omelette,cheese,Dairy,104,False,False,almond,16,24,5,Fusion,hard,breakfast
+297,Cheese Omelette,bell_pepper,Vegetable,249,False,False,blueberry,5,26,3,International,easy,lunch
+297,Cheese Omelette,onion,Vegetable,97,False,False,,16,28,5,Indian,medium,dinner
+298,Cauliflower Rice,cauliflower,Vegetable,245,False,False,pasta,40,47,3,Fusion,easy,lunch
+298,Cauliflower Rice,garlic,Vegetable,244,False,True,,9,26,2,Fusion,easy,lunch
+298,Cauliflower Rice,onion,Vegetable,38,False,False,,9,38,6,Mediterranean,easy,lunch
+298,Cauliflower Rice,egg,Protein,210,False,False,,5,16,3,International,medium,lunch
+299,Mango Lassi,mango,Fruit,45,False,False,,38,41,5,Indian,hard,snack
+299,Mango Lassi,yogurt,Dairy,226,False,True,tofu,40,49,4,Mediterranean,easy,drink
+299,Mango Lassi,milk,Dairy,116,False,True,,15,52,2,Indian,hard,lunch
+300,Zucchini Pasta,pasta,Grain,211,False,False,,40,50,4,Fusion,easy,lunch
+300,Zucchini Pasta,zucchini,Vegetable,152,False,False,,36,1,6,International,medium,lunch
+300,Zucchini Pasta,tomato,Vegetable,192,True,False,pear,8,3,1,Indian,easy,drink
+300,Zucchini Pasta,garlic,Vegetable,33,False,True,,8,36,2,International,easy,breakfast
+300,Zucchini Pasta,cheese,Dairy,80,False,False,,35,32,1,Fusion,easy,dinner

@@ -1,0 +1,18 @@
+# Requires Python 3.13 or earlier for TensorFlow compatibility.
+# Create a venv with Python 3.9-3.13 before installing.
+flask==3.1.3
+tensorflow>=2.12.0,<2.17.0
+# TensorFlow 2.12 requires NumPy < 2.0 on supported Python versions (<=3.13).
+# Use a NumPy range compatible with TF 2.12 (and Python 3.10).
+numpy>=1.21.6,<2.0
+pillow==12.2.0
+## opencv-python 4.13+ requires NumPy>=2.0 on Python >=3.9.
+## Use a 4.5.x build that works with NumPy 1.x for TensorFlow 2.12 on Python 3.10.
+opencv-python==4.5.5.64
+streamlit==1.58.0
+# Avoid pandas 3.x (requires NumPy>=2.0). Let resolver pick a pandas <3.0
+# that's compatible with the NumPy range above.
+pandas<3.0,>=1.5.3
+matplotlib==3.10.9
+pyttsx3==2.99
+werkzeug==3.1.8
