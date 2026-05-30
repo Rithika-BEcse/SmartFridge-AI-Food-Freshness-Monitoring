@@ -199,7 +199,24 @@ python app.py
 
 ---
 
+# 🎥 Project Demo
 
+Watch the complete working demonstration here:
+
+🔗 Demo Video:
+https://drive.google.com/file/d/16RhfZEqSglNzdRu3rCr22wo8OCfxU0vo/view?usp=sharing
+
+The demo showcases:
+
+* AI Food Freshness Detection
+* Live Camera Capture
+* Barcode Scanning System
+* Dashboard Analytics
+* Smart Alert Notifications
+* Food Monitoring Workflow
+* Real-time Prediction Results
+
+---
 
 
 * Rithika L 
