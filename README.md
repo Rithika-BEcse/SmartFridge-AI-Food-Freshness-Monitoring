@@ -186,6 +186,19 @@ python app.py
 
 ---
 
+## 📸 Project Screenshots
+
+### Dashboard Analytics
+![Dashboard](Screenshot 2026-05-30 104103.png)
+
+### Freshness Prediction
+![Prediction](Screenshot 2026-05-30 104309.png)
+
+### Alert System
+![Alerts](Screenshot 2026-05-30 104659.png)
+
+---
+
 
 
 
