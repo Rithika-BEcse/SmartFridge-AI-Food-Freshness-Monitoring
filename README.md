@@ -189,13 +189,16 @@ python app.py
 ## 📸 Project Screenshots
 
 ### Dashboard Analytics
-![Dashboard](Screenshot 2026-05-30 104103.png)
+<img width="1848" height="871" alt="Screenshot 2026-05-30 104338" src="https://github.com/user-attachments/assets/d79c2147-c46c-4af4-ae99-353a23e547eb" />
+
 
 ### Freshness Prediction
-![Prediction](Screenshot 2026-05-30 104309.png)
+<img width="1289" height="645" alt="Screenshot 2026-05-30 104608" src="https://github.com/user-attachments/assets/17785ef8-ac5f-48c2-8f0a-46c5203a616b" />
 
-### Alert System
-![Alerts](Screenshot 2026-05-30 104659.png)
+
+### Analytics & Insights
+<img width="1375" height="866" alt="Screenshot 2026-05-30 104659" src="https://github.com/user-attachments/assets/4fea02a2-addd-48dd-b067-c44faa663a8a" />
+
 
 ---
 
